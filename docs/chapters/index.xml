@@ -91,6 +91,16 @@ Readings Videos </description>
     </item>
     
     <item>
+      <title>Chapter 9</title>
+      <link>/chapters/chapter9/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter9/</guid>
+      <description>Chapter 9 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
       <title>Bayesian</title>
       <link>/chapters/bayesian/</link>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
@@ -101,16 +111,6 @@ Readings Videos </description>
  Bayesian Estimation Supersedes the t Test
  Precision is the goal
  </description>
-    </item>
-    
-    <item>
-      <title>Chapter 9</title>
-      <link>/chapters/chapter9/</link>
-      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
-      
-      <guid>/chapters/chapter9/</guid>
-      <description>Chapter 9 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
     </item>
     
   </channel>

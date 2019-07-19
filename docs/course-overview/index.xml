@@ -17,7 +17,7 @@
       
       <guid>/course-overview/schedule/</guid>
       <description> Google Calendar
- Course Schedule    Start Due Date Chapter Topic     Jan-25 Feb-10 1 Intro to Data   Feb-11 Feb-17 2 Probability   Feb-18 Mar-3 3 Distributions   Mar-4 Mar-17 4 Foundation for Inference   Mar-18 Mar-24 5 Inference for Numerical Data   Mar-25 Mar-31 6 Inference for Categorical Data   Apr-1 Apr-14 7 Linear Regression   Apr-15 May-5 8 Multiple &amp;amp; Logistic Regression   May-6 May-15 Navarro Introduction to Bayesian Analysis   May-16 May-19  Final Exam    </description>
+ Course Schedule    Start Due Date Chapter Topic     Aug-27 Sep-1 1 Intro to Data   Sep-2 Sep-8 2 Summarizing Data   Sep-9 Sep-15 3 Probability   Sep-16 Sep-29 4 Distributions   Sep-30 Oct-13 5 Foundation for Inference   Oct-14 Oct-20 6 Inference for Numerical Data   Oct-21 Oct-27 7 Inference for Categorical Data   Oct-28 Nov-10 8 Linear Regression   Nov-11 Nov-24 9 Multiple &amp;amp; Logistic Regression   Dec-2 Dec-11 Navarro Introduction to Bayesian Analysis   Dec-12 Dec-16  Final Exam    </description>
     </item>
     
     <item>
@@ -27,11 +27,11 @@
       
       <guid>/course-overview/meetups/</guid>
       <description>There will be weekly meetups. You are encouraged to attend as many as you can but recordings will generally be availabe the day after the meetup.
-You can join the meetup from your computer, tablet or smartphone at: https://global.gotomeeting.com/join/890853557.
-You can also dial in using your phone: (646) 749-3122
-Access Code: 890-853-557
-Presentation Signup Sheet
-   Date Topic Resources      Welcome to DATA 606    Wed, Jan 30, 8pm Intro to Data Part I    Wed, Feb 6, 8pm Intro to Data Part II    wed, Feb 12, 8pm Probability    Wed, Feb 20, 8pm Distributions Part I    Wed, Feb 27, 8pm Distributions Part II    Wed, Mar 6, 8pm Foundation for Inference    Wed, Mar 13, 8pm Foundation for Inference cont.</description>
+Please join the meetup from your computer, tablet or smartphone: https://global.gotomeeting.com/join/851198509
+You can also dial in using your phone. United States: +1 (571) 317-3122
+Access Code: 851-198-509
+New to GoToMeeting? Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/851198509
+Presentation Signup Sheet</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ Presentation Signup Sheet
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/course-overview/textbooks/</guid>
-      <description>Required Diez, D.M., Barr, C.D., &amp;amp; Çetinkaya-Rundel, M. (2015). OpenIntro Statistics (3rd Ed).
+      <description>Required Diez, D.M., Barr, C.D., &amp;amp; Çetinkaya-Rundel, M. (2019). OpenIntro Statistics (4th Ed).
  This is an open source textbook and can be downloaded in PDF format here, from the OpenIntro website, or a printed copy can be ordered from Amazon.
  Navarro, D. (2018, version 0.6). Learning Statistics with R
  This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis.</description>

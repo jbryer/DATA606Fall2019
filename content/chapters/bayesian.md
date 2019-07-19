@@ -1,7 +1,7 @@
 +++
 title = "Bayesian"
 date = "2017-04-29T18:36:24+02:00"
-Weight=9
+Weight=10
 +++
 
 ## Bayesian Analysis

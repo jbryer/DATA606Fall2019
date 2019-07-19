@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DATA606 - Spring 2019 on DATA606 - Fall 2019</title>
+    <title>DATA606 - Fall 2019</title>
     <link>/</link>
-    <description>Recent content in DATA606 - Spring 2019 on DATA606 - Fall 2019</description>
+    <description>Recent content on DATA606 - Fall 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
@@ -40,7 +40,7 @@ Access Code: 890-853-557</description>
       
       <guid>/course-overview/schedule/</guid>
       <description> Google Calendar
- Course Schedule    Start Due Date Chapter Topic     Jan-25 Feb-10 1 Intro to Data   Feb-11 Feb-17 2 Probability   Feb-18 Mar-3 3 Distributions   Mar-4 Mar-17 4 Foundation for Inference   Mar-18 Mar-24 5 Inference for Numerical Data   Mar-25 Mar-31 6 Inference for Categorical Data   Apr-1 Apr-14 7 Linear Regression   Apr-15 May-5 8 Multiple &amp;amp; Logistic Regression   May-6 May-15 Navarro Introduction to Bayesian Analysis   May-16 May-19  Final Exam    </description>
+ Course Schedule    Start Due Date Chapter Topic     Aug-27 Sep-1 1 Intro to Data   Sep-2 Sep-8 2 Summarizing Data   Sep-9 Sep-15 3 Probability   Sep-16 Sep-29 4 Distributions   Sep-30 Oct-13 5 Foundation for Inference   Oct-14 Oct-20 6 Inference for Numerical Data   Oct-21 Oct-27 7 Inference for Categorical Data   Oct-28 Nov-10 8 Linear Regression   Nov-11 Nov-24 9 Multiple &amp;amp; Logistic Regression   Dec-2 Dec-11 Navarro Introduction to Bayesian Analysis   Dec-12 Dec-16  Final Exam    </description>
     </item>
     
     <item>
@@ -61,11 +61,11 @@ Readings Videos </description>
       
       <guid>/course-overview/meetups/</guid>
       <description>There will be weekly meetups. You are encouraged to attend as many as you can but recordings will generally be availabe the day after the meetup.
-You can join the meetup from your computer, tablet or smartphone at: https://global.gotomeeting.com/join/890853557.
-You can also dial in using your phone: (646) 749-3122
-Access Code: 890-853-557
-Presentation Signup Sheet
-   Date Topic Resources      Welcome to DATA 606    Wed, Jan 30, 8pm Intro to Data Part I    Wed, Feb 6, 8pm Intro to Data Part II    wed, Feb 12, 8pm Probability    Wed, Feb 20, 8pm Distributions Part I    Wed, Feb 27, 8pm Distributions Part II    Wed, Mar 6, 8pm Foundation for Inference    Wed, Mar 13, 8pm Foundation for Inference cont.</description>
+Please join the meetup from your computer, tablet or smartphone: https://global.gotomeeting.com/join/851198509
+You can also dial in using your phone. United States: +1 (571) 317-3122
+Access Code: 851-198-509
+New to GoToMeeting? Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/851198509
+Presentation Signup Sheet</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ Presentation Signup Sheet
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/course-overview/textbooks/</guid>
-      <description>Required Diez, D.M., Barr, C.D., &amp;amp; Çetinkaya-Rundel, M. (2015). OpenIntro Statistics (3rd Ed).
+      <description>Required Diez, D.M., Barr, C.D., &amp;amp; Çetinkaya-Rundel, M. (2019). OpenIntro Statistics (4th Ed).
  This is an open source textbook and can be downloaded in PDF format here, from the OpenIntro website, or a printed copy can be ordered from Amazon.
  Navarro, D. (2018, version 0.6). Learning Statistics with R
  This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis.</description>
@@ -207,6 +207,16 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
     </item>
     
     <item>
+      <title>Chapter 9</title>
+      <link>/chapters/chapter9/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter9/</guid>
+      <description>Chapter 9 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
       <title>Bayesian</title>
       <link>/chapters/bayesian/</link>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
@@ -217,16 +227,6 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
  Bayesian Estimation Supersedes the t Test
  Precision is the goal
  </description>
-    </item>
-    
-    <item>
-      <title>Chapter 9</title>
-      <link>/chapters/chapter9/</link>
-      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
-      
-      <guid>/chapters/chapter9/</guid>
-      <description>Chapter 9 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
     </item>
     
     <item>
@@ -245,7 +245,7 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
       
       <guid>/post/2019-02-17-random_numbers_and_seeds/</guid>
       <description>To explore how R generates randome numbers, we will use the rnorm function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the mean and sd parameters). With n = 1 we will get two random numbers.
-rnorm(n = 1) ## [1] -0.514132 rnorm(n = 1) ## [1] -0.6817996 Each time you run the command you will get a different number.</description>
+rnorm(n = 1) ## [1] -0.3145431 rnorm(n = 1) ## [1] -1.506619 Each time you run the command you will get a different number.</description>
     </item>
     
     <item>

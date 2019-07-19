@@ -7,13 +7,14 @@ weight = 3
 
 ## Required
 
-Diez, D.M., Barr, C.D., & Çetinkaya-Rundel, M. (2015). *OpenIntro Statistics (3rd Ed).* 
+Diez, D.M., Barr, C.D., & Çetinkaya-Rundel, M. (2019). *OpenIntro Statistics (4th Ed).* 
 
-> This is an open source textbook and can be downloaded in PDF format [here](https://github.com/jbryer/DATA606Spring2019/blob/master/Textbook/os3.pdf?raw=true), from the [OpenIntro](http://www.openintro.org/stat/textbook.php) website, or a printed copy can be ordered from [Amazon](https://www.openintro.org/redirect.php?go=amazon_os3&referrer=/stat/textbook.php).
+> This is an open source textbook and can be downloaded in PDF format [here](https://github.com/jbryer/DATA606Fall2019/blob/master/Textbook/os4.pdf?raw=true), from the [OpenIntro](http://www.openintro.org/stat/textbook.php) website, or a printed copy can be ordered from [Amazon](https://www.amazon.com/OpenIntro-Statistics-Fourth-David-Diez/dp/1943450072/ref=sr_1_2?keywords=openintro&qid=1563548071&s=gateway&sr=8-2).
+
 
 Navarro, D. (2018, version 0.6). *Learning Statistics with R*
 
-> This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a [PDF version](https://github.com/jbryer/DATA606Spring2019/blob/master/Textbook/lsr-0.6.pdf?raw=true), [Bookdown version](https://learningstatisticswithr.com/book/), or visit the author's website at [learningstatisticswithr.com](https://learningstatisticswithr.com/).
+> This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a [PDF version](https://github.com/jbryer/DATA606Fall2019/blob/master/Textbook/lsr-0.6.pdf?raw=true), [Bookdown version](https://learningstatisticswithr.com/book/), or visit the author's website at [learningstatisticswithr.com](https://learningstatisticswithr.com/).
 
 ____________________________________________________________________________________________________
 
