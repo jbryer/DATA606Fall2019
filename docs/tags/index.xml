@@ -6,64 +6,9 @@
     <description>Recent content in Tags on DATA606 - Fall 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Annoucement</title>
-      <link>/tags/annoucement/</link>
-      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/annoucement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Colors</title>
-      <link>/tags/colors/</link>
-      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/colors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plots</title>
-      <link>/tags/plots/</link>
-      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/plots/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Random Numbers</title>
-      <link>/tags/random-numbers/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/random-numbers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Working Directories</title>
-      <link>/tags/working-directories/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/working-directories/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
