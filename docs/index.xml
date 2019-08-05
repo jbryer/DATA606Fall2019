@@ -30,7 +30,9 @@
 GoToMeeting Connection Information:
 https://global.gotomeeting.com/join/890853557
 You can also dial in using your phone: (646) 749-3122
-Access Code: 890-853-557</description>
+Access Code: 890-853-557
+Choose a problem from the following list:
+ Chapter 1 - Introduction to Data  Practice: 1.</description>
     </item>
     
     <item>
@@ -83,7 +85,7 @@ Presentation Signup Sheet</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/homework/</guid>
-      <description>The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded here. Or alternatively all the data is included in the openintro R packge (use the data(package = &#39;openintro&#39;) command to list all the datasets available in that package).</description>
+      <description>The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should use the provided R markdown templates provided below. Data for the homework assignments, and for within the chapters too, can be downloaded here. Or alternatively all the data is included in the openintro R packge (use the data(package = &#39;openintro&#39;) command to list all the datasets available in that package).</description>
     </item>
     
     <item>
@@ -114,8 +116,8 @@ Presentation Signup Sheet</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/labs/</guid>
-      <description>These mini projects will have you explore statistical topics using R. You can use the startLab function in the DATA606 package to get started, or copy the templates from the links below. Please submit a PDF (preferred) or HTML file along with your Rmarkdown file. Be sure to answer all questions in lab, not just the on your own section. Labs can be submitted on Blackboard.
-Introduction to R and RStudio (Template) Introduction to Data (Template) Probability (Template) Distributions of Random Variables (Template) Foundations for Statistical Inference Sampling Distributions (Template) Confidence Levels (Template)  Inference for Numerical Data (Template) Inference for Categorical Data (Template) Introduction to Linear Regression (Template) Multiple Linear Regerssion (Template)  </description>
+      <description>These mini projects will have you explore statistical topics using R. You can use the startLab function in the DATA606 package to get started, or copy the templates from the links below. Please submit a PDF (preferred) or HTML file along with your Rmarkdown file. Be sure to answer all questions in lab, not just the on your own section. Labs should be submitted on Blackboard.
+Introduction to R and RStudio (Template) Introduction to Data (Template) Probability (Template) Distributions of Random Variables (Template) Foundations for Statistical Inference Sampling Distributions (Template) Confidence Levels (Template)  Inference for Categorical Data (Template) Inference for Numerical Data (Template) Introduction to Linear Regression (Template) Multiple Linear Regerssion (Template)  </description>
     </item>
     
     <item>
@@ -227,6 +229,26 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
  Bayesian Estimation Supersedes the t Test
  Precision is the goal
  </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with R</title>
+      <link>/post/2019-08-27-getting-started-with-r/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-27-getting-started-with-r/</guid>
+      <description>To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Misc menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
+install.packages(c(&amp;#39;openintro&amp;#39;,&amp;#39;OIdata&amp;#39;,&amp;#39;devtools&amp;#39;,&amp;#39;ggplot2&amp;#39;,&amp;#39;psych&amp;#39;,&amp;#39;reshape2&amp;#39;, &amp;#39;knitr&amp;#39;,&amp;#39;markdown&amp;#39;,&amp;#39;shiny&amp;#39;)) devtools::install_github(&amp;quot;jbryer/DATA606&amp;quot;) Note that this course used to be listed as IS 606, hence the different package name.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to DATA606!</title>
+      <link>/post/2019-08-01-welcome-to-data606/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-01-welcome-to-data606/</guid>
+      <description>Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for this semester. In addition to teaching this course, I am an Executive Director at Excelsior College where I am currently working on a Department of Education grant to develop a Diagnostic Assessment and Achievement of College Skills (see www.DAACS.net for more information). Couple of important notes as you get started:
+ The course syllabus is on Github here: https://data606.</description>
     </item>
     
     <item>
