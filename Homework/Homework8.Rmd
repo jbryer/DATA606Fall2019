@@ -1,0 +1,18 @@
+---
+title: "Chapter 8 - Introduction to Linear Regression"
+author: ""
+output:
+    pdf_document:
+        extra_dependencies: ["geometry", "multicol", "multirow"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+--------------------------------------------------------------------------------

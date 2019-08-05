@@ -1,0 +1,18 @@
+---
+title: "Chapter 6 - Inference for Categorical Data"
+author: ""
+output:
+    pdf_document:
+        extra_dependencies: ["geometry", "multicol", "multirow"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+--------------------------------------------------------------------------------
