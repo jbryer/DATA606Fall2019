@@ -1,0 +1,148 @@
+---
+title: "DATA606 - Statistics & Probability for Data Analytics"
+author: Jason Bryer, Ph.D.
+date: Fall 2019
+knit: (function(inputFile, encoding) { input.dir <- normalizePath(dirname(inputFile)); rmarkdown::render(input = inputFile, encoding = encoding, quiet=FALSE, output_file = paste0(input.dir,'/../docs/slides/', tools::file_path_sans_ext(basename(inputFile)), '.html')); })
+output:
+  ioslides_presentation:
+    self_contained: true
+    widescreen: true
+    smaller: true
+---
+
+<div class="notes">
+Documentation on using ioslides is available here:
+http://rmarkdown.rstudio.com/ioslides_presentation_format.html
+Some slides are adopted (or copied) from OpenIntro: https://www.openintro.org/
+</div>
+
+
+## Agenda
+
+* Introduction
+	* Syllabus
+	* Assignments
+		* Homework
+		* Labs
+		* Data Project
+		* Final exam
+		* Meetup Presentation
+	* The `DATA606` R Package
+	* Using R Markdown
+
+
+## Introduction
+
+A little about me:
+
+* Currently Executive Director at [Excelsior College](http://excelsior.edu)
+	* Principal Investigator for a Department of Education Grant (part of their FIPSE First in the World program) to develop a Diagnostic Assessment and Achievement of College Skills ([www.DAACS.net](http://www.daacs.net))
+* Authored over a dozen R packages including:
+	* [likert](http://github.com/jbryer/likert)
+	* [sqlutils](http://github.com/jbryer/sqlutils)
+	* [timeline](http://github.com/jbryer/timeline)
+* Specialize in propensity score methods. Three new methods/R packages developed include:
+	* [multilevelPSA](http://github.com/jbryer/multilevelPSA)
+	* [TriMatch](http://github.com/jbryer/TriMatch)
+	* [PSAboot](http://github.com/jbryer/PSAboot)
+
+## Also a Father...
+
+<center><img src='images/BoysFall2017.jpg' height='500'></center>
+
+## Runner...
+
+<center><img src='images/2019Marathon.jpeg' height='500'></center>
+
+## And photographer.
+
+<center><img src='images/Sleeping_Empire.jpg' height='500'></center>
+
+## Syllabus
+
+Syllabus and course materials are here: [http://data606.net](http://data606.net)
+
+The site is built using the [Blogdown](https://bookdown.org/yihui/blogdown/) R package and hosted on [Github](https://github.com/jbryer/DATA606Spring2019). Each page of the site has a "Improve this page" link at the bottom right, use that to start a pull request on Github.
+
+We will use Blackboard primary only for submitting assignments. Please submit:
+
+* A PDF or link to the built HTML (e.g. Rpubs, [Github](http://htmlpreview.github.io/))
+* For labs, also include your Rmarkdown file
+
+
+## Course Calendar {.smaller}
+
+Start  | Due Date | Chapter | Topic                              
+:------|:---------|:-------:|:-----------------------------------
+Aug-27 | Sep-1    | 1       | [Intro to Data](/chapters/chapter1)
+Sep-2  | Sep-8    | 2       | [Summarizing Data](/chapters/chapter2)
+Sep-9  | Sep-15   | 3       | [Probability](/chapters/chapter3)
+Sep-16 | Sep-29   | 4       | [Distributions](/chapters/chapter4)
+Sep-30 | Oct-13   | 5       | [Foundation for Inference](/chapters/chapter5)
+Oct-14 | Oct-20   | 6       | [Inference for Numerical Data](/chapters/chapter6)
+Oct-21 | Oct-27   | 7       | [Inference for Categorical Data](/chapters/chapter7)
+Oct-28 | Nov-10   | 8       | [Linear Regression](/chapters/chapter8)
+Nov-11 | Nov-24   | 9       | [Multiple & Logistic Regression](/chapters/chapter9)
+Dec-2  | Dec-11   | Navarro | [Introduction to Bayesian Analysis](/chapters/bayesian)
+Dec-12 | Dec-16   |         | Final Exam
+
+
+## Assignments
+
+* Getting Acquainted (1%)
+* [Homework](http://data606.net/assignments/homework/) (16%)
+	* Approximately six problems per chapter.
+	* Answers can be handwritten or typed (I suggest using R Markdown)
+	* Submit a PDF on Blackboard.
+* [Labs](http://data606.net/assignments/labs/) (40%)
+	* Labs are designed to introduce to you doing statistics with R.
+	* Answer the questions in the main text as well as the "On Your Own" section.
+	* Submit both the R Markdown file and PDF of the output on Blackboard.
+* [Data Project](http://data606.net/assignments/project/) (20%)
+	* This allows you to analyze a dataset of your choosing. Projects will be shared with the class. This provides an opportunity for everyone to see different approaches to analyzing different datasets.
+	* Proposal is due March 7th (5%); Final project is due May 16th (15%).
+* [Final exam](http://data606.net/assignments/final) (18%)
+* [Meetup Presentation](http://data606.net/assignments/presentation/) (5%)
+	* Present one practice problem during our weekly meetups. Signup using the [Google Spreadsheet](http://data606.net/course-overview/meetups).
+
+## Communication
+
+* Slack Channel: https://data606fall2019.slack.com
+	* [Click here to join the group](https://join.slack.com/t/data606fall2019/shared_invite/enQtNzE3MTExNzM2ODUzLTcxNTBiNWU0ODU1ZmFjYjQ4MTNhMDY4OGU1YWZiMTAxYmEzMTU2NGZhN2E3N2M0YTlmZDIyY2E5N2IyZTliZDY)
+* There is a general CUNY MSDS Slack channel [click here](https://join.slack.com/t/cunymsds/shared_invite/enQtNTQxNDkxMTk0MDA0LTcwMWYzMTI4YzdmN2MxMzRiMTM2ZWU5M2U0ODVkNzhlZmM1MWFmZjc3M2ZjNDZjMjNhNmYxZTQ4MzIyMTQ5ZGM) to join it.
+* Github Issues - Use this for issues or problems with the course or `DATA606` package: https://github.com/jbryer/DATA606Fall2018/issues
+* Email: jason.bryer@gmail.com
+* Phone/GoToMeeting: Please email to schedule a time to meet.
+
+
+## The `DATA606` R Package
+
+The package can be installed from Github using the `devtools` package.
+
+```{r, eval=FALSE}
+devtools::install_github('jbryer/DATA606')
+```
+
+Download the `Setup.R` script here: https://github.com/jbryer/DATA606Fall2019/blob/master/R/Setup.R
+
+### Important Functions
+
+* `library('DATA606')` - Load the package
+* `vignette(package='DATA606')` - Lists vignettes in the DATA606 package
+* `vignette('os4')` - Loads a PDF of the OpenIntro Statistics book
+* `data(package='DATA606')` - Lists data available in the package
+* `getLabs()` - Returns a list of the available labs
+* `viewLab('Lab0')` - Opens Lab0 in the default web browser
+* `startLab('Lab0')` - Starts Lab0 (copies to getwd()), opens the Rmd file
+* `shiny_demo()` - Lists available Shiny apps
+
+## Using R Markdown
+
+R Markdown files are provided for all the labs and homework.
+
+* You can download R markdown template files for the homework by right clicking and selecting "Save file as..." from the [Homework](http://data606.net/assignments/homework/) page.
+* You can start a lab using the `DATA606::startLab` function.
+
+However, creating new R Markdown files in RStudio can be done by clicking `File` > `New File` > `R Markdown`.
+
+For more information about R Markdown, check out the RStudio page at https://rmarkdown.rstudio.com/

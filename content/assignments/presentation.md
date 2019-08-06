@@ -15,22 +15,22 @@ Access Code: 890-853-557
 Choose a problem from the following list:
 
 * Chapter 1 - Introduction to Data
-	* Practice: 1.7 (available in R using the `data(iris)` command), 1.9, 1.23, 1.33, 1.55, 1.69
+	* Practice: Any odd numbered question.
 to load the data)
 * Chapter 2 - Summarizing Data
-	* Practice
+	* Practice: Any odd numbered question.
 * Chapter 3 - Probability
-	* Practice: 3.5, 3.7, 3.19, 3.29, 3.43
+	* Practice: Any odd numbered question.
 * Chapter 4 - Distributions of Random Variables
-	* Practice: 4.1 (see `normalPlot`), 4.3, 4.17 (use `qqnormsim` from lab 4), 4.21, 4.37, 4.41
+	* Practice: Any odd numbered question.
 * Chapter 5 - Foundations for Inference
-	* Practice: 5.3, 5.13, 5.23, 5.25, 5.39, 5.47
+	* Practice: Any odd numbered question.
 * Chapter 6 - Inference for Categorical Data
-	* Practice: 6.5, 6.13, 6.19, 6.31, 6.45
+	* Practice: Any odd numbered question.
 * Chapter 7 - Inference for Numerical Data
-	* Practice: 7.5, 7.11, 7.27, 7.43, 7.47
+	* Practice: Any odd numbered question.
 * Chapter 8 - Introduction to Linear Regression
-	* Practice: 8.23, 8.25, 8.29, 8.39
+	* Practice: Any odd numbered question.
 * Chapter 9 - Multiple and Logistic Regression
-	* Practice: 9.1, 9.3, 9.7, 9.15, 9.17
+	* Practice: Any odd numbered question.
 
