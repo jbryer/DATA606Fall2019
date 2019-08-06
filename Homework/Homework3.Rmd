@@ -22,6 +22,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 --------------------------------------------------------------------------------
 
+\clearpage
+
 **Poverty and language**. The American Community Survey is an ongoing survey that provides data every year to give communities the current information they need to plan investments and services. The 2010 American Community Survey estimates that 14.6% of Americans live below the poverty line, 20.7% speak a language other than English (foreign language) at home, and 4.2% fall into both categories.
 
 (a) Are living below the poverty line and speaking a foreign language at home disjoint?
@@ -36,6 +38,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 --------------------------------------------------------------------------------
+
+\clearpage
 
 **Assortative mating**. Assortative mating is a nonrandom mating pattern where individuals with similar genotypes and/or phenotypes mate with one another more frequently than what would be expected under a random mating pattern. Researchers studying this topic collected data on eye colors of 204 Scandinavian men and their female partners. The table below summarizes the results. For simplicity, we only include heterosexual relationships in this exercise.
 
@@ -65,6 +69,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 --------------------------------------------------------------------------------
 
+\clearpage
+
 **Books on a bookshelf**. The table below shows the distribution of books on a bookcase
 based on whether they are nonfiction or fiction and hardcover or paperback.
 
@@ -93,6 +99,8 @@ based on whether they are nonfiction or fiction and hardcover or paperback.
 
 --------------------------------------------------------------------------------
 
+\clearpage
+
 **Baggage fees**. An airline charges the following baggage fees: $25 for the first bag and $35 for the second. Suppose 54% of passengers have no checked luggage, 34% have one piece of checked luggage and 12% have two pieces. We suppose a negligible portion of people check more than two bags.
 
 (a) Build a probability model, compute the average revenue per passenger, and compute the corresponding standard deviation.
@@ -103,6 +111,8 @@ based on whether they are nonfiction or fiction and hardcover or paperback.
 
 
 --------------------------------------------------------------------------------
+
+\clearpage
 
 **Income and gender**. The relative frequency table below displays the distribution of annual total personal income (in 2009 inflation-adjusted dollars) for a representative sample of 96,420,486 Americans. These data come from the American Community Survey for 2005-2009. This sample is comprised of 59% males and 41% females.
 
