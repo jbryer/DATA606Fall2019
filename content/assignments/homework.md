@@ -17,6 +17,7 @@ The solutions to the practice problems are at the end of the book and do not nee
 * Chapter 8 - Introduction to Linear Regression
 * Chapter 9 - Multiple and Logistic Regression
 
+
 <!--
 * [Chapter 5 - Foundations for Inference](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework5.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework5.Rmd))
 * [Chapter 6 - Inference for Categorical Data](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework6.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework6.Rmd))
