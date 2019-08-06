@@ -41,7 +41,7 @@ scores <- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 
 
 **Mix-and-match**. Describe the distribution in the histograms below and match them to the box plots.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=3}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=3}
 library(openintro)
 set.seed(7365)
 sym = rnorm(1000, mean = 60, sd = 3)

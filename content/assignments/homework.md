@@ -10,7 +10,7 @@ The solutions to the practice problems are at the end of the book and do not nee
 * [Chapter 1 - Introduction to Data](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework1.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework1.Rmd))
 * [Chapter 2 - Summarizing Data](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework2.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework2.Rmd))
 * [Chapter 3 - Probability](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework3.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework3.Rmd))
-* Chapter 4 - Distributions of Random Variables
+* [Chapter 4 - Distributions of Random Variables](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework4.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework4.Rmd))
 * Chapter 5 - Foundations for Inference
 * Chapter 6 - Inference for Categorical Data
 * Chapter 7 - Inference for Numerical Data
@@ -18,7 +18,6 @@ The solutions to the practice problems are at the end of the book and do not nee
 * Chapter 9 - Multiple and Logistic Regression
 
 <!--
-* [Chapter 4 - Distributions of Random Variables](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework4.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework4.Rmd))
 * [Chapter 5 - Foundations for Inference](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework5.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework5.Rmd))
 * [Chapter 6 - Inference for Categorical Data](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework6.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework6.Rmd))
 * [Chapter 7 - Inference for Numerical Data](https://github.com/jbryer/DATA606Fall2019/blob/master/Homework/Homework7.pdf) ([Template](https://raw.githubusercontent.com/jbryer/DATA606Fall2019/master/Homework/Homework7.Rmd))
