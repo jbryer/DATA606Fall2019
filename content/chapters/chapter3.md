@@ -26,24 +26,6 @@ $$ Var(X)={ \sigma  }^{ 2 }=\sum _{ i=1 }^{ k }{ { \left( { x }_{ i }-\mu  \righ
 * Probabilities under the density curve can be calculated as the area under the curve.
 * The probability of a continuous random variable being exactly equal to a value is 0, since there is no area under the curve at a given location.
 
-## Assignments
-
-### Homework
-
-*OpenIntro Statistics*
-
-* Practice: 2.5, 2.7, 2.19, 2.29, 2.43
-* Graded: 2.6, 2.8, 2.20, 2.30, 2.38, 2.44
-
-### Lab
-
-The labs are available in the `DATA606` R package. To start the first lab, use the `startLab` function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by `Sys.info()['user']`). If this is incorrect, then either provide the `file-prefix` parameter to `startLab`, or rename the file after it has been copied.
-
-
-```r
-DATA606::viewLab('Lab2')
-DATA606::startLab('Lab2')
-```
 
 ## Readings
 

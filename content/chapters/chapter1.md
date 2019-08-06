@@ -21,30 +21,6 @@ of choosing one sampling scheme over another.
 * Create and intepret contingency and frequency tables (one- and two-way tables).
 
 
-## Assignments
-
-### Homework
-
-*OpenIntro Statistics*
-
-* Practice: 1.7 (available in R using the `data(iris)` command), 1.9, 1.23, 1.33, 1.55, 1.69
-* Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70
-
-For 1.48, the following R code will create a vector `scores` that can be used to answer the question:
-
-```r
-scores <- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)
-```
-
-### Lab 1
-
-The labs are available in the `DATA606` R package. To start the first lab, use the `startLab` function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by `Sys.info()['user']`). If this is incorrect, then either provide the `file-prefix` parameter to `startLab`, or rename the file after it has been copied.
-
-
-```r
-startLab('Lab1')
-```
-
 ## Readings
 
 * [OpenIntro Statistics slides](https://github.com/jbryer/DATA606Fall2019/raw/master/Slides/OpenIntro/os2_slides_01.pdf)

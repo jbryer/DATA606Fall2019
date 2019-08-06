@@ -41,8 +41,7 @@ Choose a problem from the following list:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/course-overview/schedule/</guid>
-      <description> Google Calendar
- Course Schedule    Start Due Date Chapter Topic     Aug-27 Sep-1 1 Intro to Data   Sep-2 Sep-8 2 Summarizing Data   Sep-9 Sep-15 3 Probability   Sep-16 Sep-29 4 Distributions   Sep-30 Oct-13 5 Foundation for Inference   Oct-14 Oct-20 6 Inference for Numerical Data   Oct-21 Oct-27 7 Inference for Categorical Data   Oct-28 Nov-10 8 Linear Regression   Nov-11 Nov-24 9 Multiple &amp;amp; Logistic Regression   Dec-2 Dec-11 Navarro Introduction to Bayesian Analysis   Dec-12 Dec-16  Final Exam    </description>
+      <description>Course Schedule    Start Due Date Chapter Topic     Aug-27 Sep-1 1 Intro to Data   Sep-2 Sep-8 2 Summarizing Data   Sep-9 Sep-15 3 Probability   Sep-16 Sep-29 4 Distributions   Sep-30 Oct-13 5 Foundation for Inference   Oct-14 Oct-20 6 Inference for Numerical Data   Oct-21 Oct-27 7 Inference for Categorical Data   Oct-28 Nov-10 8 Linear Regression   Nov-11 Nov-24 9 Multiple &amp;amp; Logistic Regression   Dec-2 Dec-11 Navarro Introduction to Bayesian Analysis   Dec-12 Dec-16  Final Exam    Google Calendar</description>
     </item>
     
     <item>
@@ -51,9 +50,7 @@ Choose a problem from the following list:
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter2/</guid>
-      <description> Chapter 2 Learning Outcomes Assignments Homework OpenIntro Statistics
-Lab No lab for this chapter
-Readings Videos </description>
+      <description> Chapter 2 Learning Outcomes Readings Videos </description>
     </item>
     
     <item>
@@ -106,8 +103,7 @@ Presentation Signup Sheet</description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter4/</guid>
-      <description>Chapter 4 Assignments Homework OpenIntro Statistics
- Practice: 4.1 (see normalPlot), 4.3, 4.17 (use qqnormsim from lab 4), 4.21, 4.37, 4.41 Graded: 4.2 (see normalPlot), 4.4, 4.18 (use qqnormsim from lab 4), 4.22, 4.38, 4.42  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.</description>
+      <description> Chapter 4 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -136,8 +132,7 @@ Introduction to R and RStudio (Template) Introduction to Data (Template) Probabi
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter5/</guid>
-      <description>Chapter 5 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Labs The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 5 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -165,8 +160,7 @@ Learning R  R for Data Science. Book by Garrett Grolemund and Hadley Wickham Qui
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter6/</guid>
-      <description>Chapter 6 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 6 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -194,8 +188,7 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter7/</guid>
-      <description>Chapter 7 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 7 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -204,8 +197,9 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter8/</guid>
-      <description>Chapter 8 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 8 Readings  OpenIntro Statistics slides
+ Linear regression with SAT scores - This document outlines the implementation of linear regression step-by-step emphasizing visualizations.
+  Videos </description>
     </item>
     
     <item>
@@ -214,8 +208,7 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter9/</guid>
-      <description>Chapter 9 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 9 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -229,6 +222,26 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
  Bayesian Estimation Supersedes the t Test
  Precision is the goal
  </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with R</title>
+      <link>/post/2019-08-27-getting-started-with-r/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-27-getting-started-with-r/</guid>
+      <description>To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Misc menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
+install.packages(c(&amp;#39;openintro&amp;#39;,&amp;#39;OIdata&amp;#39;,&amp;#39;devtools&amp;#39;,&amp;#39;ggplot2&amp;#39;,&amp;#39;psych&amp;#39;,&amp;#39;reshape2&amp;#39;, &amp;#39;knitr&amp;#39;,&amp;#39;markdown&amp;#39;,&amp;#39;shiny&amp;#39;)) devtools::install_github(&amp;quot;jbryer/DATA606&amp;quot;) Note that this course used to be listed as IS 606, hence the different package name.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to DATA606!</title>
+      <link>/post/2019-08-01-welcome-to-data606/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-01-welcome-to-data606/</guid>
+      <description>Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for this semester. In addition to teaching this course, I am an Executive Director at Excelsior College where I am currently working on a Department of Education grant to develop a Diagnostic Assessment and Achievement of College Skills (see www.DAACS.net for more information). Couple of important notes as you get started:
+ The course syllabus is on Github here: https://data606.</description>
     </item>
     
     <item>

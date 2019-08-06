@@ -16,7 +16,6 @@ Choose a problem from the following list:
 
 * Chapter 1 - Introduction to Data
 	* Practice: Any odd numbered question.
-to load the data)
 * Chapter 2 - Summarizing Data
 	* Practice: Any odd numbered question.
 * Chapter 3 - Probability

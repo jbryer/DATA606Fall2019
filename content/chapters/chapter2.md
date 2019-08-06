@@ -9,16 +9,6 @@ Weight=2
 ## Learning Outcomes
 
 
-## Assignments
-
-### Homework
-
-*OpenIntro Statistics*
-
-
-### Lab
-
-No lab for this chapter
 
 ## Readings
 

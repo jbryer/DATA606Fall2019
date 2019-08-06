@@ -79,11 +79,27 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/post/" class="dd-item
+    <li data-nav-id="/post/" class="dd-item haschildren
         ">
       <div>
-      <a href="/post/">Announcements</a><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/post/">Announcements</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
+        <ul>
+      <li data-nav-id="/post/2019-08-27-getting-started-with-r/" class="dd-item">
+        <div>
+          <a href="/post/2019-08-27-getting-started-with-r/">
+            Getting Started with R
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/post/2019-08-01-welcome-to-data606/" class="dd-item">
+        <div>
+          <a href="/post/2019-08-01-welcome-to-data606/">
+            Welcome to DATA606!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
     </li>
     <li data-nav-id="/course-overview/" class="dd-item alwaysopen haschildren
         ">
@@ -327,25 +343,6 @@
     
 
 <h2 id="chapter-5">Chapter 5</h2>
-
-<h2 id="assignments">Assignments</h2>
-
-<h3 id="homework">Homework</h3>
-
-<p><em>OpenIntro Statistics</em></p>
-
-<ul>
-<li>Practice:</li>
-<li>Graded:</li>
-</ul>
-
-<h3 id="labs">Labs</h3>
-
-<p>The labs are available in the <code>DATA606</code> R package. To start the first lab, use the <code>startLab</code> function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by <code>Sys.info()['user']</code>). If this is incorrect, then either provide the <code>file-prefix</code> parameter to <code>startLab</code>, or rename the file after it has been copied.</p>
-
-<pre><code class="language-r">DATA606::startLab('Lab5a')
-DATA606::startLab('Lab5b')
-</code></pre>
 
 <h2 id="readings">Readings</h2>
 

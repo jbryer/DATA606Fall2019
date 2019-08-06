@@ -26,9 +26,7 @@
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter2/</guid>
-      <description> Chapter 2 Learning Outcomes Assignments Homework OpenIntro Statistics
-Lab No lab for this chapter
-Readings Videos </description>
+      <description> Chapter 2 Learning Outcomes Readings Videos </description>
     </item>
     
     <item>
@@ -46,8 +44,7 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter4/</guid>
-      <description>Chapter 4 Assignments Homework OpenIntro Statistics
- Practice: 4.1 (see normalPlot), 4.3, 4.17 (use qqnormsim from lab 4), 4.21, 4.37, 4.41 Graded: 4.2 (see normalPlot), 4.4, 4.18 (use qqnormsim from lab 4), 4.22, 4.38, 4.42  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.</description>
+      <description> Chapter 4 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -56,8 +53,7 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter5/</guid>
-      <description>Chapter 5 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Labs The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 5 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -66,8 +62,7 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter6/</guid>
-      <description>Chapter 6 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 6 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -76,8 +71,7 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter7/</guid>
-      <description>Chapter 7 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 7 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>
@@ -86,8 +80,9 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter8/</guid>
-      <description>Chapter 8 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 8 Readings  OpenIntro Statistics slides
+ Linear regression with SAT scores - This document outlines the implementation of linear regression step-by-step emphasizing visualizations.
+  Videos </description>
     </item>
     
     <item>
@@ -96,8 +91,7 @@ Readings Videos </description>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter9/</guid>
-      <description>Chapter 9 Assignments Homework OpenIntro Statistics
- Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+      <description> Chapter 9 Readings  OpenIntro Statistics slides  Videos </description>
     </item>
     
     <item>

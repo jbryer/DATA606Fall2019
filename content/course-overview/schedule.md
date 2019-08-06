@@ -4,10 +4,6 @@ description = "Schedule"
 weight = 1
 +++
 
-[Google Calendar](https://calendar.google.com/calendar/embed?src=aff9007bt59r0bvub56tforuh0%40group.calendar.google.com&ctz=America%2FNew_York)
-
-
-<iframe src="https://calendar.google.com/calendar/embed?src=aff9007bt59r0bvub56tforuh0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Course Schedule
 
@@ -25,3 +21,7 @@ Nov-11 | Nov-24   | 9       | [Multiple & Logistic Regression](/chapters/chapter
 Dec-2  | Dec-11   | Navarro | [Introduction to Bayesian Analysis](/chapters/bayesian)
 Dec-12 | Dec-16   |         | Final Exam
 
+[Google Calendar](https://calendar.google.com/calendar/embed?src=aff9007bt59r0bvub56tforuh0%40group.calendar.google.com&ctz=America%2FNew_York)
+
+
+<iframe src="https://calendar.google.com/calendar/embed?src=aff9007bt59r0bvub56tforuh0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

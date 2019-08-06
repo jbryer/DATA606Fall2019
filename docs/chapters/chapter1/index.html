@@ -79,11 +79,27 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/post/" class="dd-item
+    <li data-nav-id="/post/" class="dd-item haschildren
         ">
       <div>
-      <a href="/post/">Announcements</a><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/post/">Announcements</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
+        <ul>
+      <li data-nav-id="/post/2019-08-27-getting-started-with-r/" class="dd-item">
+        <div>
+          <a href="/post/2019-08-27-getting-started-with-r/">
+            Getting Started with R
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/post/2019-08-01-welcome-to-data606/" class="dd-item">
+        <div>
+          <a href="/post/2019-08-01-welcome-to-data606/">
+            Welcome to DATA606!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
     </li>
     <li data-nav-id="/course-overview/" class="dd-item alwaysopen haschildren
         ">
@@ -343,29 +359,6 @@ of choosing one sampling scheme over another.</li>
 <li>Describe the shape of distributions vis-à-vis histograms and boxplots.</li>
 <li>Create and intepret contingency and frequency tables (one- and two-way tables).</li>
 </ul>
-
-<h2 id="assignments">Assignments</h2>
-
-<h3 id="homework">Homework</h3>
-
-<p><em>OpenIntro Statistics</em></p>
-
-<ul>
-<li>Practice: 1.7 (available in R using the <code>data(iris)</code> command), 1.9, 1.23, 1.33, 1.55, 1.69</li>
-<li>Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70</li>
-</ul>
-
-<p>For 1.48, the following R code will create a vector <code>scores</code> that can be used to answer the question:</p>
-
-<pre><code class="language-r">scores &lt;- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)
-</code></pre>
-
-<h3 id="lab-1">Lab 1</h3>
-
-<p>The labs are available in the <code>DATA606</code> R package. To start the first lab, use the <code>startLab</code> function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by <code>Sys.info()['user']</code>). If this is incorrect, then either provide the <code>file-prefix</code> parameter to <code>startLab</code>, or rename the file after it has been copied.</p>
-
-<pre><code class="language-r">startLab('Lab1')
-</code></pre>
 
 <h2 id="readings">Readings</h2>
 
