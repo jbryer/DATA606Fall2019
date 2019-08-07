@@ -7,25 +7,26 @@ categories: ["R"]
 tags: ["R Markdown", "working directories"]
 ---
 
-To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the [Software](/software) page at [http://data606.net/software](http://data606.net/software) which is available on the `Misc` menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
+To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the [Software](/software) page at [http://data606.net/software](http://data606.net/software) which is available on the `Course Overview` menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
 
 ```
-install.packages(c('openintro','OIdata','devtools','ggplot2','psych','reshape2',
-				   'knitr','markdown','shiny'))
+install.packages(c('openintro','OIdata','devtools','tidyverse', 'ggplot2',
+                   'psych','reshape2','knitr','markdown','shiny','R.rsp',
+                   'fivethirtyeight'))
 devtools::install_github("jbryer/DATA606")
 ```
 
 Note that this course used to be listed as IS 606, hence the different package name. The `library` command will load the package and the `startLab` function will:
 
-1. Create a folder called `Lab0` in the current working directory.
+1. Create a folder called `Lab1` in the current working directory.
 2. Open the the RMarkdown file (note that the name should have your login name).
 
 ```
 library(DATA606)
-startLab('Lab0')
+startLab('Lab1')
 ```
 
-Note the `Lab0` directory has been created.
+Note the `Lab1` directory has been created.
 
 ![RStudio Files Panel](/figures/RStudio-screen-files.png)
 

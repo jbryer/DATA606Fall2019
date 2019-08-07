@@ -13,11 +13,11 @@ date = "2018-01-04"
 **Email:** <a href="mailto:jason.bryer@gmail.com?Subject=DATA606">jason.bryer@gmail.com</a>    
 
 
-## Course Description
+### Course Description
 
 This course covers basic techniques in probability and statistics that are important in the field of data analytics. Discrete probability models, sampling from infinite and finite populations, statistical distributions, basic Bayesian statistics, and non-parametric statistical techniques for categorical data are covered in this course. Each of these statistical concepts will be applied in a variety of real-world scenarios through the use of case studies and customized data sets.
 
-## Course Learning Outcomes:
+### Course Learning Outcomes:
 
 By then end of the course, students should be able to:
 
@@ -29,18 +29,18 @@ By then end of the course, students should be able to:
 * Construct estimators and calculate intervals using classical and modern computational techniques.
 * Perform basic Bayesian statistical techniques for estimation and testing hypotheses.
 
-## Program Learning Outcomes addressed by the course:
+### Program Learning Outcomes addressed by the course:
 
 * Business Understanding.  Learn when probabilistic techniques apply to certain categories of business problems, discuss the sorts of solutions that are possible, and understand the limitations of these techniques.
 * Foundational Math Skills. Explore and analyze data, build probabilistic and statistical models, construct estimators, and test hypotheses.
 * Predictive Modeling.  Learn foundational techniques that underlie predictive modeling algorithms, such as Naïve Bayes.
 * Presentation.  Complete and submit collaborative assignments using techniques from the course.
 
-## How is this course relevant for data analytics professionals?
+### How is this course relevant for data analytics professionals?
 
 Probabilistic techniques are the foundation of many data science applications from data exploration and visualization to outlier analysis, stochastic modelling, and data mining algorithms. This course will ensure that students have a strong understanding of these foundations.
 
-## Grading
+### Grading
 
 * [Homework](/assignments/homework) (16%)
 * [Labs](/assignments/labs) (40%)
@@ -49,7 +49,7 @@ Probabilistic techniques are the foundation of many data science applications fr
 * [Meetup Presentation](/assignments/presentation) (5%)
 * Getting Aquainted (1%)
 
-### Grade Distribution
+#### Grade Distribution
 
 Quality of Performance                     | Letter Grade | Range %   | GPA  |
 -------------------------------------------|:------------:|:---------:|:----:|
@@ -62,7 +62,7 @@ Poor                                       |      C+      | 77 - 79.9 | 2.3  |
 Poor                                       |      C       | 70 - 76.9 |  2   |
 Failure                                    |      F       |   < 70    |  0   |
 
-## How This Course Works:
+### How This Course Works:
 
 This course is conducted entirely online. Each week, you will have various resources made available, including weekly readings from the textbooks and occasionally additional readings provided by the instructor. Most weeks will have homework assignments to be submitted. There will also be a presentation required and a forum post introduction required. You are expected to complete all assignments by their due dates.
 
@@ -70,7 +70,7 @@ Meetup presentations will comprise the solution and presentation to the class of
 
 Further details on each of these assignments will be available in Blackboard and/or [this Github repository](https://github.com/jbryer/DATA606Fall2019).
 
-## Textbooks
+### Textbooks
 
 #### Required
 
@@ -107,7 +107,7 @@ Kruschke, J.K. (2014). *Doing Bayesian Data Analysis, Second Edition: A Tutorial
 * [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/)
 * [Probability Cheat Sheet](http://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
 
-## Contact
+### Contact
 
 Office Hours (cell phone or using GoToMeeting): By appointment. You're encouraged to schedule an appointment, but you can try to call anytime.
 
@@ -118,19 +118,19 @@ For the most part, you can expect me to respond to questions by email within 24 
 I will be checking in on the course regularly, just about every day and likely several times each day. Please do not hesitate to ask if you have questions or concerns.
 
 
-## Accessibility and Accommodations
+### Accessibility and Accommodations
 
 The CUNY School of Professional Studies is firmly committed to making higher education accessible to students with disabilities by removing architectural barriers and providing programs and support services necessary for them to benefit from the instruction and resources of the University. Early planning is essential for many of the resources and accommodations provided. Please see: [http://sps.cuny.edu/student_services/disabilityservices.html](http://sps.cuny.edu/student_services/disabilityservices.html)
 
-## Online Etiquette and Anti-Harassment Policy
+### Online Etiquette and Anti-Harassment Policy
 
 The University strictly prohibits the use of University online resources or facilities, including Blackboard, for the purpose of harassment of any individual or for the posting of any material that is scandalous, libelous, offensive or otherwise against the University’s policies.  Please see: [http://media.sps.cuny.edu/filestore/8/4/9_d018dae29d76f89/849_3c7d075b32c268e.pdf](http://media.sps.cuny.edu/filestore/8/4/9_d018dae29d76f89/849_3c7d075b32c268e.pdf)
 
-## Academic Integrity
+### Academic Integrity
 
 Academic dishonesty is unacceptable and will not be tolerated. Cheating, forgery, plagiarism and collusion in dishonest acts undermine the educational mission of the City University of New York and the students' personal and intellectual growth. Please see: [http://media.sps.cuny.edu/filestore/8/3/9_dea303d5822ab91/839_1753cee9c9d90e9.pdf](http://media.sps.cuny.edu/filestore/8/3/9_dea303d5822ab91/839_1753cee9c9d90e9.pdf)
 
-## Student Support Services
+### Student Support Services
 
 If you need any additional help, please visit Student Support Services: 
 [http://sps.cuny.edu/student_resources/](http://sps.cuny.edu/student_resources/)
