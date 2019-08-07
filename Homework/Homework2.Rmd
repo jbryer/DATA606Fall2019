@@ -12,7 +12,7 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Stats scores**. Below are the final exam scores of twenty introductory statistics students. 
+**Stats scores**. (2.33, p. 78) Below are the final exam scores of twenty introductory statistics students. 
 
 57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94
 
@@ -39,7 +39,7 @@ scores <- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 
 
 \clearpage
 
-**Mix-and-match**. Describe the distribution in the histograms below and match them to the box plots.
+**Mix-and-match**. (2.10, p. 57) Describe the distribution in the histograms below and match them to the box plots.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=3}
 library(openintro)
@@ -70,7 +70,7 @@ boxPlot(uni, xlab = "(3)", ylab = "", col = COL[1,3])
 
 \clearpage
 
-**Distributions and appropriate statistics, Part II**. For each of the following, state whether you expect the distribution to be symmetric, right skewed, or left skewed. Also specify whether the mean or median would best represent a typical observation in the data, and whether the variability of observations would be best represented using the standard deviation or IQR. Explain your reasoning.
+**Distributions and appropriate statistics, Part II**. (2.16, p. 59) For each of the following, state whether you expect the distribution to be symmetric, right skewed, or left skewed. Also specify whether the mean or median would best represent a typical observation in the data, and whether the variability of observations would be best represented using the standard deviation or IQR. Explain your reasoning.
 
 (a) Housing prices in a country where 25% of the houses cost below $350,000, 50% of the houses cost below $450,000, 75% of the houses cost below $1,000,000 and there are a meaningful number of houses that cost more than $6,000,000.
 (b) Housing prices in a country where 25% of the houses cost below $300,000, 50% of the houses cost below $600,000, 75% of the houses cost below $900,000 and very few houses that cost more than $1,200,000.
@@ -86,7 +86,7 @@ executives earn much higher salaries than the all other employees.
 
 \clearpage
 
-**Heart transplants.** The Stanford University Heart Transplant Study was conducted to determine whether an  experimental heart transplant program increased lifespan. Each patient entering the program was designated an official heart transplant candidate, meaning that he was gravely ill and would most likely benefit from a new heart. Some patients got a transplant and some did not. The variable *transplant* indicates which group the patients were in; patients in the treatment group got a transplant and those in the control group did not. Of the 34 patients in the control group, 30 died. Of the 69 people in the treatment group, 45 died. Another variable called *survived* was used to indicate whether or not the patient was alive at the end of the study.
+**Heart transplants.** (2.26, p. 76) The Stanford University Heart Transplant Study was conducted to determine whether an  experimental heart transplant program increased lifespan. Each patient entering the program was designated an official heart transplant candidate, meaning that he was gravely ill and would most likely benefit from a new heart. Some patients got a transplant and some did not. The variable *transplant* indicates which group the patients were in; patients in the treatment group got a transplant and those in the control group did not. Of the 34 patients in the control group, 30 died. Of the 69 people in the treatment group, 45 died. Another variable called *survived* was used to indicate whether or not the patient was alive at the end of the study.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.show="hold", out.width="50%", fig.height=3}
 library(openintro)
