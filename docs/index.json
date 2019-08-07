@@ -11,7 +11,7 @@
 	"title": "Announcements",
 	"tags": [],
 	"description": "",
-	"content": "  "
+	"content": "  Getting Started with R To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Misc menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands: install.packages(c(\u0026#39;openintro\u0026#39;,\u0026#39;OIdata\u0026#39;,\u0026#39;devtools\u0026#39;,\u0026#39;ggplot2\u0026#39;,\u0026#39;psych\u0026#39;,\u0026#39;reshape2\u0026#39;, \u0026#39;knitr\u0026#39;,\u0026#39;markdown\u0026#39;,\u0026#39;shiny\u0026#39;)) devtools::install_github(\u0026quot;jbryer/DATA606\u0026quot;) Note that this course used to be listed as IS 606, hence the different package name.\n  Welcome to DATA606! Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for this semester. In addition to teaching this course, I am an Executive Director at Excelsior College where I am currently working on a Department of Education grant to develop a Diagnostic Assessment and Achievement of College Skills (see www.DAACS.net for more information). Couple of important notes as you get started: The course syllabus is on Github here: https://data606.\n  "
 },
 {
 	"uri": "/course-overview/",
@@ -175,6 +175,20 @@
 	"content": "  Chapter 1 Chapter 1 - Introduction to Data Learning Objectives Identify the type of variables (e.g. numerical or categorical; discrite or continuous; ordered or not ordered). Identify the relationship between multiple variables (i.e. indepedent vs. dependent). Define variables that are not associated as independent. Be able to describe and identify the difference between observational and experimental studies. Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another.\n  Chapter 2  Chapter 2 Learning Outcomes Readings Videos   Chapter 3 Chapter 3 Learning Outcomes Define trial, outcome, and sample space. Define and describe the law of large numbers. Distinguish disjoint (also called mutually exclusive) and independent events. Use Venn diagrams to represent events and their probabilities. Describe probability distributions. Distinguish between marginal and conditional probabilities. Use tree diagrams and/or Bayes Theorem to calculate conditional probabilities and probabilities of intersection of non-independent events. The expected value of a discrete random variable is computed by adding each outcome weighted by its probability.\n  Chapter 4  Chapter 4 Readings OpenIntro Statistics slides Videos   Chapter 5  Chapter 5 Readings OpenIntro Statistics slides Videos   Chapter 6  Chapter 6 Readings OpenIntro Statistics slides Videos   Chapter 7  Chapter 7 Readings OpenIntro Statistics slides Videos   Chapter 8  Chapter 8 Readings OpenIntro Statistics slides Linear regression with SAT scores - This document outlines the implementation of linear regression step-by-step emphasizing visualizations. Videos   Chapter 9  Chapter 9 Readings OpenIntro Statistics slides Videos   Bayesian  Bayesian Analysis Assignments Homework OpenIntro Statistics Practice: Graded: Lab 1 Readings Fitting a Model by Maximum Likelihood (Collier, 2013). Kruschke\u0026rsquo;s website for Doing Bayesian Data Analysis Kruschke\u0026rsquo;s blog Andrew Gelman\u0026rsquo;s blog - Posts about bayesian statistics Videos Bayesian Methods Interpret Data Better Bayesian Estimation Supersedes the t Test Precision is the goal   "
 },
 {
+	"uri": "/post/2019-08-27-getting-started-with-r/",
+	"title": "Getting Started with R",
+	"tags": ["R Markdown", "working directories"],
+	"description": "",
+	"content": "To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Misc menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:\ninstall.packages(c(\u0026#39;openintro\u0026#39;,\u0026#39;OIdata\u0026#39;,\u0026#39;devtools\u0026#39;,\u0026#39;ggplot2\u0026#39;,\u0026#39;psych\u0026#39;,\u0026#39;reshape2\u0026#39;, \u0026#39;knitr\u0026#39;,\u0026#39;markdown\u0026#39;,\u0026#39;shiny\u0026#39;)) devtools::install_github(\u0026quot;jbryer/DATA606\u0026quot;) Note that this course used to be listed as IS 606, hence the different package name. The library command will load the package and the startLab function will:\nCreate a folder called Lab0 in the current working directory. Open the the RMarkdown file (note that the name should have your login name).  library(DATA606) startLab(\u0026#39;Lab0\u0026#39;) Note the Lab0 directory has been created.\nRStudio Files Panel\n If you click Lab0 that will take you into that folder where you will see the RMardkown file (.Rmd extension) along with all the supporting files. Under the More menu there is an option to Set As Working Directory, you will want to do this before working in the RMarkdown file.\nSetting Working Directory\n The console pane will always tell you what your current working directory is. Clicking the arrow icon will open that folder in the Files tab on the right. R will look for files and directories that do not have absolute paths (i.e. starting with C: on windows or / on Linux and Macs) relative to the working directory.\nWorking Directory\n "
+},
+{
+	"uri": "/post/2019-08-01-welcome-to-data606/",
+	"title": "Welcome to DATA606!",
+	"tags": ["Annoucement"],
+	"description": "",
+	"content": "Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for this semester. In addition to teaching this course, I am an Executive Director at Excelsior College where I am currently working on a Department of Education grant to develop a Diagnostic Assessment and Achievement of College Skills (see www.DAACS.net for more information). Couple of important notes as you get started:\n The course syllabus is on Github here: https://data606.net I will post all course materials there. Blackboard will be used primarily for submitting assignments. Join the Slack channel by clicking here. This will be our primary mode of communication. For private communications, you can email me at jason.bryer@gmail.com. Introduce yourself in the Getting Acquainted forum on Blackboard. Once you go through the syllabus, try starting Lab 0 as soon as you can. This will require you to install R and RStudio and will help get you get acquainted with R. The best way to reach me is by email at jason.bryer@gmail.com. If you would prefer to talk on the phone or setup a GoToMeeting session, it is best to suggest some times by email first. Our meetups will be on Wednesdays from 8pm to 9pm. I am looking forward to getting to know everyone and a fantastic semester! Good luck!  "
+},
+{
 	"uri": "/",
 	"title": "DATA606 - Fall 2019",
 	"tags": [],
@@ -196,6 +210,13 @@
 	"content": ""
 },
 {
+	"uri": "/tags/annoucement/",
+	"title": "Annoucement",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -203,8 +224,29 @@
 	"content": ""
 },
 {
+	"uri": "/categories/r/",
+	"title": "R",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/r-markdown/",
+	"title": "R Markdown",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/tags/",
 	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/working-directories/",
+	"title": "Working Directories",
 	"tags": [],
 	"description": "",
 	"content": ""
