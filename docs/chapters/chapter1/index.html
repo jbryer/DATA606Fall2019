@@ -45,13 +45,8 @@
                 </a>
             </li>
             <li class="" role="">
-                <a href="https://github.com/jbryer/DATA606Fall2019/issues"  rel="noopener">
-                  <i class='fa fa-question-circle'></i> Ask a question
-                </a>
-            </li>
-            <li class="" role="">
-                <a href="https://github.com/jbryer/DATA606Fall2019/issues?q=is%3Aissue&#43;is%3Aclosed"  rel="noopener">
-                  <i class='fa fa-question-circle'></i> Answered questions
+                <a href="https://github.com/jbryer/DATA606Fall2019/issues?utf8=%E2%9C%93&amp;q=is%3Aissue"  rel="noopener">
+                  <i class='fa fa-question-circle'></i> Q&A
                 </a>
             </li>
             <li class="" role="">
@@ -85,13 +80,6 @@
       <a href="/post/">Announcements</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/post/2019-08-27-getting-started-with-r/" class="dd-item">
-        <div>
-          <a href="/post/2019-08-27-getting-started-with-r/">
-            Getting Started with R
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
       <li data-nav-id="/post/2019-08-01-welcome-to-data606/" class="dd-item">
         <div>
           <a href="/post/2019-08-01-welcome-to-data606/">
@@ -347,26 +335,19 @@
 <h2 id="learning-objectives">Learning Objectives</h2>
 
 <ul>
-<li>Identify the type of variables (e.g. numerical or categorical; discrite or continuous; ordered or not ordered).</li>
-<li>Identify the relationship between multiple variables (i.e. indepedent vs. dependent).</li>
+<li>Identify the type of variables (e.g. numerical or categorical; discrete or continuous; ordered or not ordered).</li>
+<li>Identify the relationship between multiple variables (i.e. independent vs. dependent).</li>
 <li>Define variables that are not associated as independent.</li>
 <li>Be able to describe and identify the difference between observational and experimental studies.</li>
 <li>Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks
 of choosing one sampling scheme over another.</li>
-<li>Identify the four principles of experimental design and recognize their purposes: control any possible con- founders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeat- ing the experiment, and block any variables that might influence the response.</li>
-<li>Use appropriate visualizations for different types of data (e.g. histogram, barplot, scatterplot, boxplot, etc.).</li>
-<li>Use different measures of center and spread and be able to describe the robustness of different statistics.</li>
-<li>Describe the shape of distributions vis-à-vis histograms and boxplots.</li>
-<li>Create and intepret contingency and frequency tables (one- and two-way tables).</li>
+<li>Identify the four principles of experimental design and recognize their purposes: control any possible con- founders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeating the experiment, and block any variables that might influence the response.</li>
 </ul>
 
 <h2 id="readings">Readings</h2>
 
 <ul>
 <li><a href="https://github.com/jbryer/DATA606Fall2019/raw/master/Slides/OpenIntro/os2_slides_01.pdf">OpenIntro Statistics slides</a></li>
-<li><a href="http://ggplot2.org/">ggplot2</a> - <code>ggplot2</code> is an R package by Wickham that implements the <a href="http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448">grammer of graphics</a> (Wilkinson, 2005) in R. I will frequently make use of the graphing framework throughout the course and is worth learning.</li>
-<li><a href="http://jason.bryer.org/likert/">Visualizing Likert Data</a> - An R package for visualizing <a href="https://en.wikipedia.org/wiki/Likert_scale">Likert scale</a> data built on the <code>ggplot2</code> framework.</li>
-<li><a href="http://www.statmethods.net/graphs/index.html">Quick-R base graphics</a> - Covers many of the visualizations using R&rsquo;s base graphics.</li>
 </ul>
 
 <h2 id="videos">Videos</h2>
@@ -393,33 +374,9 @@ of choosing one sampling scheme over another.</li>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g7JGe_ykB3I?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8" frameborder="0" allowfullscreen></iframe>
 
-<p><a href="https://www.youtube.com/watch?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8&amp;v=Xm0PPtci3JE">Summarizing and Graphing Numerical Data</a></p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xm0PPtci3JE?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8&amp;v=7NhNeADL8fA">Exploring Categorical Data</a></p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7NhNeADL8fA?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8" frameborder="0" allowfullscreen></iframe>
-
 <p><a href="Using Randomization to Analyze a Gender Discrimination Study">Using Randomization to Analyze a Gender Discrimination Study</a></p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2pHhjx9hyM4?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8" frameborder="0" allowfullscreen></iframe>
-
-<h2 id="note-about-pie-charts">Note about Pie Charts</h2>
-
-<p>There is only one pie chart in <em>OpenIntro Statistics</em> (Diez, Barr, &amp; Çetinkaya-Rundel, 2015, p. 48). Consider the following three pie charts that represent the preference of five different colors. Is there a difference between the three pie charts? This is probably a difficult to answer.</p>
-
-<p><img src="/figures/Pie.png" alt="Pie" /></p>
-
-<p>However, consider the bar plot below. Here, we cleary see there is a difference between the ratio of the three colors. As John Tukey famously said:</p>
-
-<blockquote>
-<p>There is no data that can be displayed in a pie chart that cannot better be displayed in some other type of chart</p>
-</blockquote>
-
-<p><img src="/figures/Bar.png" alt="Bar" /></p>
-
-<p>Source: <a href="https://en.wikipedia.org/wiki/Pie_chart">https://en.wikipedia.org/wiki/Pie_chart</a>.</p>
 
 
     

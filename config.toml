@@ -30,14 +30,9 @@ url = "https://data606fall2019.slack.com/messages"
 weight = 8
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-question-circle'></i> Ask a question"
-url = "https://github.com/jbryer/DATA606Fall2019/issues"
+name = "<i class='fa fa-question-circle'></i> Q&A"
+url = "https://github.com/jbryer/DATA606Fall2019/issues?utf8=%E2%9C%93&q=is%3Aissue"
 weight = 9
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-question-circle'></i> Answered questions"
-url = "https://github.com/jbryer/DATA606Fall2019/issues?q=is%3Aissue+is%3Aclosed"
-weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-github'></i> Github Repo"

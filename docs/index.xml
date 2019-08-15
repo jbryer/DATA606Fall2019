@@ -17,7 +17,7 @@
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter1/</guid>
-      <description>Chapter 1 - Introduction to Data Learning Objectives  Identify the type of variables (e.g. numerical or categorical; discrite or continuous; ordered or not ordered). Identify the relationship between multiple variables (i.e. indepedent vs. dependent). Define variables that are not associated as independent. Be able to describe and identify the difference between observational and experimental studies. Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another.</description>
+      <description>Chapter 1 - Introduction to Data Learning Objectives  Identify the type of variables (e.g. numerical or categorical; discrete or continuous; ordered or not ordered). Identify the relationship between multiple variables (i.e. independent vs. dependent). Define variables that are not associated as independent. Be able to describe and identify the difference between observational and experimental studies. Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another.</description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ Choose a problem from the following list:
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter2/</guid>
-      <description> Chapter 2 Learning Outcomes Readings Videos </description>
+      <description>Chapter 2 Learning Outcomes  Use appropriate visualizations for different types of data (e.g. histogram, barplot, scatterplot, boxplot, etc.). Use different measures of center and spread and be able to describe the robustness of different statistics. Describe the shape of distributions vis-à-vis histograms and boxplots. Create and intepret contingency and frequency tables (one- and two-way tables).  Readings  OpenIntro Statistics slides ggplot2 - ggplot2 is an R package by Wickham that implements the grammer of graphics (Wilkinson, 2005) in R.</description>
     </item>
     
     <item>
@@ -223,16 +223,6 @@ Creating Equations with Daum Equation Editor Occasionally you will need to type 
  Bayesian Estimation Supersedes the t Test
  Precision is the goal
  </description>
-    </item>
-    
-    <item>
-      <title>Getting Started with R</title>
-      <link>/post/2019-08-27-getting-started-with-r/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-08-27-getting-started-with-r/</guid>
-      <description>To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Course Overview menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
-install.packages(c(&amp;#39;openintro&amp;#39;,&amp;#39;OIdata&amp;#39;,&amp;#39;devtools&amp;#39;,&amp;#39;tidyverse&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;psych&amp;#39;,&amp;#39;reshape2&amp;#39;,&amp;#39;knitr&amp;#39;,&amp;#39;markdown&amp;#39;,&amp;#39;shiny&amp;#39;,&amp;#39;R.rsp&amp;#39;, &amp;#39;fivethirtyeight&amp;#39;)) devtools::install_github(&amp;quot;jbryer/DATA606&amp;quot;) Note that this course used to be listed as IS 606, hence the different package name.</description>
     </item>
     
     <item>

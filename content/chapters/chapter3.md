@@ -36,6 +36,10 @@ $$ Var(X)={ \sigma  }^{ 2 }=\sum _{ i=1 }^{ k }{ { \left( { x }_{ i }-\mu  \righ
 
 ## Videos
 
+[Probability Introduction](https://www.youtube.com/watch?list=PLkIselvEzpM5EgoOajhw83Ax_FktnlD6n&v=rG-SLQ2uF8U)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rG-SLQ2uF8U" frameborder="0" allowfullscreen></iframe>
+
 [Would You Take This Bet?](https://www.youtube.com/watch?v=vBX-KulgJ1o)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vBX-KulgJ1o" frameborder="0" allowfullscreen></iframe>
