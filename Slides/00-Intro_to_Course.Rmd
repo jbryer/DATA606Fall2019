@@ -108,7 +108,7 @@ Dec-12 | Dec-16   |         | Final Exam
 ## Communication
 
 * Slack Channel: https://data606fall2019.slack.com
-	* [Click here to join the group](https://join.slack.com/t/data606fall2019/shared_invite/enQtNzE3MTExNzM2ODUzLTcxNTBiNWU0ODU1ZmFjYjQ4MTNhMDY4OGU1YWZiMTAxYmEzMTU2NGZhN2E3N2M0YTlmZDIyY2E5N2IyZTliZDY)
+	* [Click here to join the group](https://join.slack.com/t/data606fall2019/shared_invite/enQtNzE2NTc5NTMwMjExLTI5MGU3ZTNmZjcyZTNkNDhiOTZiNjY3YmI0N2NjOGNhZDM2ZWUxZTE0ZTdiNTNlN2JkMmFlMmQyNTdjYTEyYzY)
 * There is a general CUNY MSDS Slack channel [click here](https://join.slack.com/t/cunymsds/shared_invite/enQtNTQxNDkxMTk0MDA0LTcwMWYzMTI4YzdmN2MxMzRiMTM2ZWU5M2U0ODVkNzhlZmM1MWFmZjc3M2ZjNDZjMjNhNmYxZTQ4MzIyMTQ5ZGM) to join it.
 * Github Issues - Use this for issues or problems with the course or `DATA606` package: https://github.com/jbryer/DATA606Fall2018/issues
 * Email: jason.bryer@gmail.com
