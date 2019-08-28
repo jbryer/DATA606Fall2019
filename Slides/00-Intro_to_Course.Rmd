@@ -132,8 +132,8 @@ Download the `Setup.R` script here: https://github.com/jbryer/DATA606Fall2019/bl
 * `vignette('os4')` - Loads a PDF of the OpenIntro Statistics book
 * `data(package='DATA606')` - Lists data available in the package
 * `getLabs()` - Returns a list of the available labs
-* `viewLab('Lab0')` - Opens Lab0 in the default web browser
-* `startLab('Lab0')` - Starts Lab0 (copies to getwd()), opens the Rmd file
+* `viewLab('Lab1')` - Opens Lab1 in the default web browser
+* `startLab('Lab1')` - Starts Lab1 (copies to getwd()), opens the Rmd file
 * `shiny_demo()` - Lists available Shiny apps
 
 ## Using R Markdown

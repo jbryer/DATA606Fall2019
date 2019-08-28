@@ -21,8 +21,8 @@ https://global.gotomeeting.com/install/851198509
 
 Date                  | Topic                           | Resources |
 :---------------------|:--------------------------------|:----------|
-                      | Welcome to DATA 606             | 
-Wed, Aug 28, 8pm      | Intro to Data                   | 
+                      | Welcome to DATA 606             | [Slides](/slides/00-Intro_to_Course.html)
+Wed, Aug 28, 8pm      | Intro to Data                   | [Slides](/slides/01-Intro_to_Data.html)
 Wed, Sep 4, 8pm       | Summarizing Data                | 
 wed, Sep 11, 8pm      | Probability                     | 
 Wed, Sep 18, 8pm      | Distributions Part I            | 

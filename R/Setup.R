@@ -5,8 +5,8 @@ install.packages(c('tidyverse', 'devtools', 'shiny', 'psych', 'reshape2',
 				   'openintro', 'OIdata', 'fivethrityeight', 'knitr'))
 devtools::install_github('jbryer/DATA606')
 
-# Getting started with Lab 0
+# Getting started with Lab 1
 library(DATA606)
 getwd() # This is your current working directory. The startLab function will
-        # create a Lab0 directory there with all the required files.
-DATA606::startLab('Lab0')
+        # create a Lab1 directory there with all the required files.
+DATA606::startLab('Lab1')
