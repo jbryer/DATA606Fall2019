@@ -33,6 +33,14 @@ knitr::opts_chunk$set(echo = TRUE)
 (b) How many participants were included in the survey?
 (c) Indicate whether each variable in the study is numerical or categorical. If numerical, identify as continuous or discrete. If categorical, indicate if the variable is ordinal.
 
+```{r, eval=FALSE}
+# NOTE: It is not absolutely necessary to load the data to answer these questions, but is here for further exploration. 
+if(!file.exists('11263-Smoking_tcm86-13253.xls')) {
+	download.file('https://github.com/jbryer/DATA606Fall2019/blob/master/course_data/11263-Smoking_tcm86-13253.xls?raw=true', destfile = '11263-Smoking_tcm86-13253.xls')
+}
+smoking <- readxl::read_excel('11263-Smoking_tcm86-13253.xls')
+```
+
 
 
 
