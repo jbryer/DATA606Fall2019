@@ -37,6 +37,7 @@ Once everything is installed, execute the following command in RStudio to instal
 install.packages(c('openintro','OIdata','devtools','tidyverse', 'ggplot2',
                    'psych','reshape2','knitr','markdown','shiny','R.rsp',
                    'fivethirtyeight'))
+install.packages("devtools")
 devtools::install_github("jbryer/DATA606")
 ```
 
