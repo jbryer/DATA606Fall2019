@@ -57,7 +57,7 @@ smoking <- readxl::read_excel('11263-Smoking_tcm86-13253.xls')
 (b) Comment on whether or not the results of the study can be generalized to the population, and
 if the findings of the study can be used to establish causal relationships.
 
-[^1]: Alessandro Bucciol and Marco Piovesan. “Luck or cheating? A field experiment on honesty with children”. In: Journal of Economic Psychology 32.1 (2011), pp. 73–78. Available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1307694
+[^1]: Alessandro Bucciol and Marco Piovesan. "Luck or cheating? A field experiment on honesty with children". In: Journal of Economic Psychology 32.1 (2011), pp. 73–78. Available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1307694
 
 
 
