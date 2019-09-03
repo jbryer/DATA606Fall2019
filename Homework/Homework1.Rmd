@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Smoking habits of UK residents**. (1.10, p. 20) A survey was conducted to study the smoking habits of UK residents. Below is a data matrix displaying a portion of the data collected in this survey. Note that “£” stands for British Pounds Sterling, "cig" stands for cigarettes, and "N/A" refers to a missing component of the data.
+**Smoking habits of UK residents**. (1.10, p. 20) A survey was conducted to study the smoking habits of UK residents. Below is a data matrix displaying a portion of the data collected in this survey. Note that "$\pounds$" stands for British Pounds Sterling, "cig" stands for cigarettes, and "N/A" refers to a missing component of the data.
 
 \begin{center}
 \scriptsize{
