@@ -34,7 +34,7 @@ Wed, Oct 23, 8:30pm      | Inference for Categorical Data  |
 Wed, Oct 30, 8:30pm      | Linear Regression               | 
 Wed, Nov 6, 8:30pm       | Linear Regression cont.         | 
 Wed, Nov 13, 8:30pm      | Multiple & Logistic Regression  | 
-Wed, Nov 20, :308pm      | Multiple & Logistic Regression  |
+Wed, Nov 20, 8:30pm      | Multiple & Logistic Regression  |
 Nov 27                | NO MEETUP - Thanksgiving        | 
 Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | 
 Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
