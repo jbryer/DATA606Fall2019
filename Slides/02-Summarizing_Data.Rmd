@@ -1,6 +1,7 @@
 ---
 title: "DATA606 - Summarizing Data"
 author: Jason Bryer, Ph.D.
+date: "September 4, 2019"
 knit: (function(inputFile, encoding) { input.dir <- normalizePath(dirname(inputFile)); rmarkdown::render(input = inputFile, encoding = encoding, quiet=FALSE, output_file = paste0(input.dir,'/../docs/slides/', tools::file_path_sans_ext(basename(inputFile)), '.html')); })
 output:
   ioslides_presentation:
@@ -21,6 +22,18 @@ Some slides are adopted (or copied) from OpenIntro: https://www.openintro.org/
 library(lego)
 data(legosets)
 ```
+
+## Announcements
+
+* Meetups will be at 8:30pm the rest of the semester.
+* Working directories. See this post for more info:  
+https://data606.net/post/2019-08-27-getting-started-with-r/
+
+## Presentations
+
+* Trishita Nath - 1.15 Buteyko method, scope of inference.
+* Alice Friedman - 1.25 Haters are gonna hate, study confirms.
+* Marissa Klein - 1.35 Pet Names
 
 ## Summarizing Data
 

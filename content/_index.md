@@ -8,7 +8,7 @@ date = "2018-01-04"
 # DATA606 - Fall 2019
 
 **Instructor:** Jason Bryer, Ph.D.  
-**Class Meetup:** Wednesday 8:00pm to 9:00pm  
+**Class Meetup:** Wednesday 8:30pm to 9:30pm  
 **Office Hours:** By appointment  
 **Email:** <a href="mailto:jason.bryer@gmail.com?Subject=DATA606">jason.bryer@gmail.com</a>    
 

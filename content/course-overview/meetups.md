@@ -23,19 +23,19 @@ Date                  | Topic                           | Resources |
 :---------------------|:--------------------------------|:----------|
                       | Welcome to DATA 606             | [Slides](/slides/00-Intro_to_Course.html)
 Wed, Aug 28, 8pm      | Intro to Data                   | [Slides](/slides/01-Intro_to_Data.html), [Video](https://youtu.be/LJKxn7hPdnQ)
-Wed, Sep 4, 8pm       | Summarizing Data                | 
-wed, Sep 11, 8pm      | Probability                     | 
-Wed, Sep 18, 8pm      | Distributions Part I            | 
-Wed, Sep 25, 8pm      | Distributions Part II           | 
-Wed, Oct 2, 8pm       | Foundation for Inference        | 
+Wed, Sep 4, 8:30pm       | Summarizing Data                | 
+wed, Sep 11, 8:30pm      | Probability                     | 
+Wed, Sep 18, 8:30pm      | Distributions Part I            | 
+Wed, Sep 25, 8:30pm      | Distributions Part II           | 
+Wed, Oct 2, 8:30pm       | Foundation for Inference        | 
 Oct 8                 | NO MEETUP                       | 
-Wed, Oct 16, 8pm      | Inference for Numerical Data    | 
-Wed, Oct 23, 8pm      | Inference for Categorical Data  | 
-Wed, Oct 30, 8pm      | Linear Regression               | 
-Wed, Nov 6, 8pm       | Linear Regression cont.         | 
-Wed, Nov 13, 8pm      | Multiple & Logistic Regression  | 
-Wed, Nov 20, 8pm      | Multiple & Logistic Regression  |
+Wed, Oct 16, 8:30pm      | Inference for Numerical Data    | 
+Wed, Oct 23, 8:30pm      | Inference for Categorical Data  | 
+Wed, Oct 30, 8:30pm      | Linear Regression               | 
+Wed, Nov 6, 8:30pm       | Linear Regression cont.         | 
+Wed, Nov 13, 8:30pm      | Multiple & Logistic Regression  | 
+Wed, Nov 20, :308pm      | Multiple & Logistic Regression  |
 Nov 27                | NO MEETUP - Thanksgiving        | 
-Wed, Dec 4, 8pm       | Intro to Bayesian Analysis      | 
-Wed, Dec 11, 8pm      | Wrap-Up                         | 
+Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | 
+Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
 

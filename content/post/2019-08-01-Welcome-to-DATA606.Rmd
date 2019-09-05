@@ -14,7 +14,7 @@ Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for
 * Introduce yourself in the Getting Acquainted forum on Blackboard.
 * Once you go through the syllabus, try starting Lab 1 as soon as you can. This will require you to install R and RStudio and will help get you get acquainted with R.
 * The best way to reach me is by Slack or email at [jason.bryer@gmail.com](mailto:jason.bryer@gmail.com). If you would prefer to talk on the phone or setup a GoToMeeting session, it is best to suggest some times by email first.
-* Our meetups will be on Wednesdays from 8pm to 9pm.
+* Our meetups will be on Wednesdays from 8:30pm to 9:30pm.
 * I am looking forward to getting to know everyone and a fantastic semester! Good luck!
 
 
