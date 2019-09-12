@@ -24,7 +24,7 @@ Date                  | Topic                           | Resources |
                       | Welcome to DATA 606             | [Slides](/slides/00-Intro_to_Course.html)
 Wed, Aug 28, 8pm      | Intro to Data                   | [Slides](/slides/01-Intro_to_Data.html), [Video](https://youtu.be/LJKxn7hPdnQ)
 Wed, Sep 4, 8:30pm       | Summarizing Data                | [Slides](/slides/02-Summarizing_Data.html), [Video](https://youtu.be/o_Eh-mXvG5c)
-wed, Sep 11, 8:30pm      | Probability                     | 
+wed, Sep 11, 8:30pm      | Probability                     | [Slides](/slides/03-Probability.html), [Video](https://youtu.be/gbmKN14mfvc)
 Wed, Sep 18, 8:30pm      | Distributions Part I            | 
 Wed, Sep 25, 8:30pm      | Distributions Part II           | 
 Wed, Oct 2, 8:30pm       | Foundation for Inference        | 
