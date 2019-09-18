@@ -2,7 +2,7 @@
 title: "Random Numbers and Seeds in R"
 author: "Jason Bryer"
 date: 2019-09-18
-draft: true
+draft: false
 categories: ["R"]
 tags: ["random numbers"]
 ---
