@@ -30,7 +30,6 @@ library(ggplot2)
 * 2.25 Side effects of Avandia - Donny Lofland
 * 2.27 Make-up exam - Aaron Zalki
 * 2.31 Oscar Winners - Joe Rovalino
-* 2.33 Stats Scores - Sie Siong Wong
 
 ## Probability
 
