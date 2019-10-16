@@ -205,9 +205,9 @@ lines(x, y, type = "l", lwd = 2, xlim = c(-3.5,30), ylab='', xlab='', yaxt='n', 
 
 SAT scores are distributed nearly normally with mean 1500 and standard deviation 300.
 
-* ∼68% of students score between 1200 and 1800 on the SAT. 
-* ∼95% of students score between 900 and 2100 on the SAT.
-* ∼99.7% of students score between 600 and 2400 on the SAT.
+* ???68% of students score between 1200 and 1800 on the SAT. 
+* ???95% of students score between 900 and 2100 on the SAT.
+* ???99.7% of students score between 600 and 2400 on the SAT.
 
 ## Evaluating Normal Approximation {.flexbox .vcenter}
 
@@ -276,3 +276,5 @@ par(par.orig)
 ```{r, fig.width=6, fig.height=5}
 DATA606::qqnormsim(heights)
 ```
+
+

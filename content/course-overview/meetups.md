@@ -28,14 +28,14 @@ wed, Sep 11, 8:30pm      | Probability                     | [Slides](/slides/03
 Wed, Sep 18, 8:30pm      | Distributions Part I            | [Slides](/slides/04-Distributions.html), [Video](https://youtu.be/VnSQq_0fL0Q)
 Wed, Sep 25, 8:30pm      | Distributions Part II           | [Slides](/slides/04-Distributions2.html), [Video](https://youtu.be/SRMZ1dGdaEg)
 Wed, Oct 2, 8:30pm       | Foundation for Inference        | [Slides](/slides/05-Foundation_for_Inference.html), [Video](https://youtu.be/pPNb-FngiiQ)
-Oct 8                 | NO MEETUP                       | 
-Wed, Oct 16, 8:30pm      | Inference for Numerical Data    | 
-Wed, Oct 23, 8:30pm      | Inference for Categorical Data  | 
+Oct 8                    | NO MEETUP                       | 
+Wed, Oct 16, 8:30pm      | Inference for Categorical Data  | [Slides](/slides/06-Inference_for_Categorical_Data.html)
+Wed, Oct 23, 8:30pm      | Inference for Numerical Data    | 
 Wed, Oct 30, 8:30pm      | Linear Regression               | 
 Wed, Nov 6, 8:30pm       | Linear Regression cont.         | 
 Wed, Nov 13, 8:30pm      | Multiple & Logistic Regression  | 
 Wed, Nov 20, 8:30pm      | Multiple & Logistic Regression  |
-Nov 27                | NO MEETUP - Thanksgiving        | 
+Nov 27                   | NO MEETUP - Thanksgiving        | 
 Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | 
 Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
 
