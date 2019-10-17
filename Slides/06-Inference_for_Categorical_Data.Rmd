@@ -33,7 +33,6 @@ par(mar=c(2.5,1,2,1))
 
 * 5.27 - Relaxing after Work - Misha Kollontai	
 * 5.31 - Unemployment and relationship problems - Lin Li	
-* Duke Phung	
 * 5.29 Testing for Food Safety - [Charlie Rosemond](https://github.com/chrosemo/data606_fall19/blob/master/HWPresentation_Problem5.29_Rosemond.pptx)
 
 ## Example

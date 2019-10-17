@@ -3122,16 +3122,15 @@ slide:not(.current) .plotly.html-widget{
 
 <aside class='note'><section><p>Documentation on using ioslides is available here: <a href='http://rmarkdown.rstudio.com/ioslides_presentation_format.html' title=''>http://rmarkdown.rstudio.com/ioslides_presentation_format.html</a> Some slides are adopted (or copied) from OpenIntro: <a href='https://www.openintro.org/' title=''>https://www.openintro.org/</a></p></section></aside>
 
-<slide class=""><hgroup><h2>Presentations</h2></hgroup><article  class="smaller " id="presentations">
+<slide class=""><hgroup><h2>Presentations</h2></hgroup><article  id="presentations" class="smaller ">
 
 <ul>
 <li>5.27 - Relaxing after Work - Misha Kollontai<br/></li>
 <li>5.31 - Unemployment and relationship problems - Lin Li<br/></li>
-<li>Duke Phung<br/></li>
 <li>5.29 Testing for Food Safety - <a href='https://github.com/chrosemo/data606_fall19/blob/master/HWPresentation_Problem5.29_Rosemond.pptx' title=''>Charlie Rosemond</a></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Example</h2></hgroup><article  class="smaller " id="example">
+</article></slide><slide class=""><hgroup><h2>Example</h2></hgroup><article  id="example" class="smaller ">
 
 <p>Two scientists want to know if a certain drug is effective against high blood pressure. The first scientist wants to give the drug to 1,000 people with high blood pressure and see how many of them experience lower blood pressure levels. The second scientist wants to give the drug to 500 people with high blood pressure, and not give the drug to another 500 people with high blood pressure, and see how many in both groups experience lower blood pressure levels. Which is the better way to test this drug?</p>
 
@@ -3139,7 +3138,7 @@ slide:not(.current) .plotly.html-widget{
 <li><strong>500 get the drug, 500 don’t</strong></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Survey of Americans</h2></hgroup><article  class="smaller " id="survey-of-americans">
+</article></slide><slide class=""><hgroup><h2>Survey of Americans</h2></hgroup><article  id="survey-of-americans" class="smaller ">
 
 <p>The GSS asks the same question, below is the distribution of responses from the 2010 survey:</p>
 
@@ -3162,14 +3161,14 @@ slide:not(.current) .plotly.html-widget{
 </tr>
 </table>
 
-</article></slide><slide class=""><hgroup><h2>Parameter of Interest</h2></hgroup><article  class="smaller " id="parameter-of-interest">
+</article></slide><slide class=""><hgroup><h2>Parameter of Interest</h2></hgroup><article  id="parameter-of-interest" class="smaller ">
 
 <ul>
 <li><p>Parameter of interest: Proportion of <em>all</em> Americans who have good intuition about experimental design.<br/>\[p(population\; proportion)\]</p></li>
 <li><p>Point estimate: Proportion of <em>sampled</em> Americans who have good intuition about experimental design.<br/>\[\hat{p}(sample\; proportion)\]</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Inference for a proportion</h2></hgroup><article  class="smaller " id="inference-for-a-proportion">
+</article></slide><slide class=""><hgroup><h2>Inference for a proportion</h2></hgroup><article  id="inference-for-a-proportion" class="smaller ">
 
 <p>What percent of all Americans have good intuition about experimental design (i.e. would answer &ldquo;500 get the drug 500 don’t?&rdquo;</p>
 
@@ -3178,7 +3177,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>We know that ME = critical value x standard error of the point estimate. \[SE_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}\]</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Central limit theoreom for proportions</h2></hgroup><article  class="smaller " id="central-limit-theoreom-for-proportions">
+</article></slide><slide class=""><hgroup><h2>Central limit theoreom for proportions</h2></hgroup><article  id="central-limit-theoreom-for-proportions" class="smaller ">
 
 <p>Sample proportions will be nearly normally distributed with mean equal to the population mean, <em>p</em>, and standard error equal to \(\sqrt{\frac{p(1-p)}{n}}\).</p>
 
@@ -3191,7 +3190,7 @@ slide:not(.current) .plotly.html-widget{
 <li>at least 10 successes and 10 failures</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Back to the Survey</h2></hgroup><article  class="smaller " id="back-to-the-survey">
+</article></slide><slide class=""><hgroup><h2>Back to the Survey</h2></hgroup><article  id="back-to-the-survey" class="smaller ">
 
 <ul>
 <li>571 out of 670 (85%) of Americans answered the question on experimental design correctly.</li>
@@ -3207,7 +3206,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Success-failure: 571 people answered correctly (successes) and 99 answered incorrectly (failures), both are greater than 10.</p></li>
 </ol>
 
-</article></slide><slide class=""><hgroup><h2>Calculating Confidence Interval</h2></hgroup><article  class="smaller " id="calculating-confidence-interval">
+</article></slide><slide class=""><hgroup><h2>Calculating Confidence Interval</h2></hgroup><article  id="calculating-confidence-interval" class="smaller ">
 
 <p>Given: \(n = 670\), \(\hat{p} = 0.85\).</p>
 
@@ -3215,7 +3214,7 @@ slide:not(.current) .plotly.html-widget{
 
 <p>We are 95% confidence the true proportion of Americans that have a good intuition about experimental designs is betwee 82% and 88%.</p>
 
-</article></slide><slide class=""><hgroup><h2>How many should we sample?</h2></hgroup><article  class="smaller " id="how-many-should-we-sample">
+</article></slide><slide class=""><hgroup><h2>How many should we sample?</h2></hgroup><article  id="how-many-should-we-sample" class="smaller ">
 
 <p>Suppose you want a 3% margin of error, how many people would you have to survey?</p>
 
@@ -3228,7 +3227,7 @@ slide:not(.current) .plotly.html-widget{
 
 <p>\[0.03 = 1.96 \times \sqrt{\frac{0.5 \times 0.5}{n}}\] \[0.03^2 = 1.96^2 \times \frac{0.5 \times 0.5}{n}\] \[n \approx 1,068\]</p>
 
-</article></slide><slide class=""><hgroup><h2>Example: Two Proportions</h2></hgroup><article  class="smaller " id="example-two-proportions">
+</article></slide><slide class=""><hgroup><h2>Example: Two Proportions</h2></hgroup><article  id="example-two-proportions" class="smaller ">
 
 <p>Scientists predict that global warming may have big effects on the polar regions within the next 100 years. One of the possible effects is that the northern ice cap may completely melt. Would this bother you a great deal, some, a little, or not at all if it actually happened?</p>
 
@@ -3265,7 +3264,7 @@ slide:not(.current) .plotly.html-widget{
 </tr>
 </table>
 
-</article></slide><slide class=""><hgroup><h2>Parameter and Point Estimate</h2></hgroup><article  class="smaller " id="parameter-and-point-estimate">
+</article></slide><slide class=""><hgroup><h2>Parameter and Point Estimate</h2></hgroup><article  id="parameter-and-point-estimate" class="smaller ">
 
 <p>Parameter of interest: Difference between the proportions of <em>all</em> Duke students and <em>all</em> Americans who would be bothered a great deal by the northern ice cap completely melting.</p>
 
@@ -3275,7 +3274,7 @@ slide:not(.current) .plotly.html-widget{
 
 <p>\[\hat{p}_{Duke} - \hat{p}_{US}\]</p>
 
-</article></slide><slide class=""><hgroup><h2>Everything else is the same…</h2></hgroup><article  class="smaller " id="everything-else-is-the-same">
+</article></slide><slide class=""><hgroup><h2>Everything else is the same…</h2></hgroup><article  id="everything-else-is-the-same" class="smaller ">
 
 <ul>
 <li>CI: \(point\; estimate \pm margin\; of\; error\)</li>
@@ -3294,7 +3293,7 @@ slide:not(.current) .plotly.html-widget{
 <li>Success-failure: At least 10 observed successes and 10 observed failures in the two groups.</li>
 </ol>
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  class="smaller " id="section">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section" class="smaller ">
 
 <p>Construct a 95% confidence interval for the difference between the proportions of Duke students and Americans who would be bothered a great deal by the melting of the northern ice cap (\(p_{Duke} - p_{US}\)).</p>
 
