@@ -6,26 +6,26 @@ Weight=10
 
 ## Bayesian Analysis
 
-## Assignments
 
-### Homework
+### Supplemental Readings
 
-*OpenIntro Statistics*
-
-* Practice:
-* Graded:
-
-### Lab 1
-
-
-### Readings
-
-* [Fitting a Model by Maximum Likelihood](http://www.exegetic.biz/blog/2013/08/fitting-a-model-by-maximum-likelihood/) (Collier, 2013).
+* [Chapter 17 of *Learning Statistics with R* (Navarro, version 0.6)](https://github.com/jbryer/DATA606Fall2019/blob/master/Textbook/lsr-0.6.pdf)
+* [Fitting a Model by Maximum Likelihood](https://www.r-bloggers.com/fitting-a-model-by-maximum-likelihood/) (Collier, 2013).
 * [Kruschke's website for *Doing Bayesian Data Analysis*](https://sites.google.com/site/doingbayesiandataanalysis/)
 * [Kruschke's blog](http://doingbayesiandataanalysis.blogspot.com/)
 * [Andrew Gelman's blog](http://andrewgelman.com/) - Posts about [bayesian statistics](http://andrewgelman.com/category/bayesian-statistics/)
 
 ### Videos
+
+#### Rasmus B&aring;&aring;th's Introduction to Bayesian Data Analysis Video Series
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3OJEae7Qb_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mAUwjSo5TJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ie-6H_r7I5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### John Kruschke's Video Series
 
 [Bayesian Methods Interpret Data Better](https://www.youtube.com/watch?v=YyohWpjl6KU)
 

@@ -36,6 +36,16 @@
 
   
 
+
+<style type='text/css'>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
     <nav class="shortcuts">
@@ -351,9 +361,32 @@
     
     
 
-<h2 id="chapter-3">Chapter 3</h2>
+<!-- 
+See issue with underscores in MathJax equations here: https://gohugo.io/content-management/formats/#issues-with-markdown
+The solution, put backticks (`) around the LaTeX equation
+-->
 
-<h2 id="learning-outcomes">Learning Outcomes</h2>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<h2 id="probability">Probability</h2>
+
+<h3 id="learning-outcomes">Learning Outcomes</h3>
 
 <ul>
 <li>Define trial, outcome, and sample space.</li>
@@ -364,9 +397,9 @@
 <li>Distinguish between marginal and conditional probabilities.</li>
 <li>Use tree diagrams and/or Bayes Theorem to calculate conditional probabilities and probabilities of intersection of non-independent events.</li>
 <li>The expected value of a discrete random variable is computed by adding each outcome weighted by its probability.<br />
-$$ E(X)=\mu =\sum <em>{ i=1 }^{ k }{ { x }</em>{ i }P\left( X={ x }_{ i } \right)  }  $$</li>
+<code>$$ E(X)=\mu=\sum_{i=1}^{k}{{x}_{i}P\left(X={x}_{i}\right)} $$</code></li>
 <li>The variance of a discrete random variable is computed by adding each squared deviation of an outcome from the expected value weighted by its probability. The standard deviation is the square root of the variance.<br />
-$$ Var(X)={ \sigma  }^{ 2 }=\sum <em>{ i=1 }^{ k }{ { \left( { x }</em>{ i }-\mu  \right)  }P\left( X={ x }_{ i } \right)  }  $$</li>
+<code>$$ Var(X)={\sigma}^{2}=\sum_{i=1}^{k}{{\left({x}_{i}-\mu\right)}P\left(X={x}_{i}\right) } $$</code></li>
 <li>The average of a linear combination of discrete random variables is computed as the sum of their averages, weighted by the constant multipliers.</li>
 <li>The variance of a linear combination of independent discrete random variables is computed as the sum of their variances, weighted by the square of the constant multipliers.</li>
 <li>The distribution of a continuous random variable is described by the probability density function.</li>
@@ -375,15 +408,15 @@ $$ Var(X)={ \sigma  }^{ 2 }=\sum <em>{ i=1 }^{ k }{ { \left( { x }</em>{ i }-\mu
 <li>The probability of a continuous random variable being exactly equal to a value is 0, since there is no area under the curve at a given location.</li>
 </ul>
 
-<h2 id="readings">Readings</h2>
+<h3 id="supplemental-readings">Supplemental Readings</h3>
 
 <ul>
-<li><p><a href="https://github.com/jbryer/DATA606Fall2019/raw/master/Slides/OpenIntro/os2_slides_02.pdf">OpenIntro Statistics slides</a></p></li>
+<li><p><a href="https://github.com/jbryer/DATA606Fall2019/blob/master/Slides/OpenIntro/chp3.pdf">OpenIntro Statistics slides</a></p></li>
 
 <li><p>Matloff, N. (2009). <a href="https://github.com/jbryer/DATA606Fall2019/blob/master/Textbook/ProbStatBook.pdf?raw=true"><em>From Algorithms to Z-Scores: Probabilistic and Statistical Modeling in Computer Science</em></a>. Available from <a href="http://heather.cs.ucdavis.edu/probstatbook">http://heather.cs.ucdavis.edu/probstatbook</a>.</p></li>
 </ul>
 
-<h2 id="videos">Videos</h2>
+<h3 id="videos">Videos</h3>
 
 <p><a href="https://www.youtube.com/watch?list=PLkIselvEzpM5EgoOajhw83Ax_FktnlD6n&amp;v=rG-SLQ2uF8U">Probability Introduction</a></p>
 

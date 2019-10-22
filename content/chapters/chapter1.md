@@ -4,9 +4,33 @@ date = "2017-04-29T18:36:24+02:00"
 Weight=1
 +++
 
-# Chapter 1 - Introduction to Data
+<!-- 
+See issue with underscores in MathJax equations here: https://gohugo.io/content-management/formats/#issues-with-markdown
+The solution, put backticks (`) around the LaTeX equation
+-->
 
-## Learning Objectives
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+## Introduction to Data
+
+### Learning Objectives
 
 * Identify the type of variables (e.g. numerical or categorical; discrete or continuous; ordered or not ordered).
 * Identify the relationship between multiple variables (i.e. independent vs. dependent).
@@ -17,12 +41,12 @@ of choosing one sampling scheme over another.
 * Identify the four principles of experimental design and recognize their purposes: control any possible con- founders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeating the experiment, and block any variables that might influence the response.
 
 
-## Readings
+### Supplemental Readings
 
-* [OpenIntro Statistics slides](https://github.com/jbryer/DATA606Fall2019/raw/master/Slides/OpenIntro/os2_slides_01.pdf)
+* [OpenIntro Statistics slides](https://github.com/jbryer/DATA606Fall2019/blob/master/Slides/OpenIntro/chp1.pdf)
 
 
-## Videos
+### Videos
 
 *OpenIntro* provides a number of [videos](https://www.openintro.org/stat/videos.php). You may find these helpful while reading the chapter.
 

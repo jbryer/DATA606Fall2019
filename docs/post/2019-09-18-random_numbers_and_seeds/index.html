@@ -36,6 +36,16 @@
 
   
 
+
+<style type='text/css'>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
     <nav class="shortcuts">
@@ -345,9 +355,9 @@
     
     <p>To explore how R generates randome numbers, we will use the <code>rnorm</code> function. This function draws a random number from a normal distribution with a mean = 0 and standard deviation = 1 (though these can be changed with the <code>mean</code> and <code>sd</code> parameters). With <code>n = 1</code> we will get two random numbers.</p>
 <pre class="r"><code>rnorm(n = 1)</code></pre>
-<pre><code>## [1] 0.7865543</code></pre>
+<pre><code>## [1] 2.400374</code></pre>
 <pre class="r"><code>rnorm(n = 1)</code></pre>
-<pre><code>## [1] -0.8559107</code></pre>
+<pre><code>## [1] 1.169187</code></pre>
 <p>Each time you run the command you will get a different number. The <code>set.seed</code> function will sets a seed to the random number generator so that each subsequent run will produce the same number.</p>
 <pre class="r"><code>set.seed(2112); rnorm(n = 1)</code></pre>
 <pre><code>## [1] 0.9243372</code></pre>

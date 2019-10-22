@@ -36,6 +36,16 @@
 
   
 
+
+<style type='text/css'>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
     <nav class="shortcuts">
@@ -351,9 +361,32 @@
     
     
 
-<h1 id="chapter-1-introduction-to-data">Chapter 1 - Introduction to Data</h1>
+<!-- 
+See issue with underscores in MathJax equations here: https://gohugo.io/content-management/formats/#issues-with-markdown
+The solution, put backticks (`) around the LaTeX equation
+-->
 
-<h2 id="learning-objectives">Learning Objectives</h2>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<h2 id="introduction-to-data">Introduction to Data</h2>
+
+<h3 id="learning-objectives">Learning Objectives</h3>
 
 <ul>
 <li>Identify the type of variables (e.g. numerical or categorical; discrete or continuous; ordered or not ordered).</li>
@@ -365,13 +398,13 @@ of choosing one sampling scheme over another.</li>
 <li>Identify the four principles of experimental design and recognize their purposes: control any possible con- founders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeating the experiment, and block any variables that might influence the response.</li>
 </ul>
 
-<h2 id="readings">Readings</h2>
+<h3 id="supplemental-readings">Supplemental Readings</h3>
 
 <ul>
-<li><a href="https://github.com/jbryer/DATA606Fall2019/raw/master/Slides/OpenIntro/os2_slides_01.pdf">OpenIntro Statistics slides</a></li>
+<li><a href="https://github.com/jbryer/DATA606Fall2019/blob/master/Slides/OpenIntro/chp1.pdf">OpenIntro Statistics slides</a></li>
 </ul>
 
-<h2 id="videos">Videos</h2>
+<h3 id="videos">Videos</h3>
 
 <p><em>OpenIntro</em> provides a number of <a href="https://www.openintro.org/stat/videos.php">videos</a>. You may find these helpful while reading the chapter.</p>
 
