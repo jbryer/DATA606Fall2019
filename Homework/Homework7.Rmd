@@ -143,7 +143,7 @@ library(openintro)
 library(xtable)
 if(!file.exists('gss2010.Rda')) {
 	download.file('https://github.com/jbryer/DATA606Fall2019/raw/master/course_data/gss2010.Rda',
-				  dest = 'gss2010.Rda')
+				  dest = 'gss2010.Rda', mode = "wb")
 }
 load("gss2010.Rda")
 gss <- gss2010
