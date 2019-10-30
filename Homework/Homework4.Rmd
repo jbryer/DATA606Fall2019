@@ -127,7 +127,7 @@ is produced independent of the others. On average how many transistors would you
 
 \clearpage
 
-**Serving in volleyball.** (4.30, p. 162) A not-so-skilled volleyball player has a 15% chance of making the serve, which involves hitting the ball so it passes over the net on a trajectory such that it will land in the opposing team’s court. Suppose that her serves are independent of each other.
+**Serving in volleyball.** (4.30, p. 162) A not-so-skilled volleyball player has a 15% chance of making the serve, which involves hitting the ball so it passes over the net on a trajectory such that it will land in the opposing team's court. Suppose that her serves are independent of each other.
 
 (a) What is the probability that on the 10th try she will make her 3rd successful serve?
 (b) Suppose she has made two successful serves in nine attempts. What is the probability that her 10th serve will be successful?
