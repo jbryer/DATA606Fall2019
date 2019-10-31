@@ -83,7 +83,7 @@ plot(bdims$hgt ~ bdims$sho.gi,
 \end{center}
 
 (a) Describe the relationship between shoulder girth and height.
-(b) How would the relationship change if shoulder girth was measured in inches while the units of height re- mained in centimeters?
+(b) How would the relationship change if shoulder girth was measured in inches while the units of height remained in centimeters?
 
 
 
