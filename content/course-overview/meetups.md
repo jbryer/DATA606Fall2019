@@ -31,7 +31,7 @@ Wed, Oct 2, 8:30pm       | Foundation for Inference        | [Slides](/slides/05
 Oct 8                    | NO MEETUP                       | 
 Wed, Oct 16, 8:30pm      | Inference for Categorical Data  | [Slides](/slides/06-Inference_for_Categorical_Data.html), [Video](https://youtu.be/4wIv8kb0fcg)
 Wed, Oct 23, 8:30pm      | Inference for Numerical Data    | [Slides](/slides/07-Inference_for_Numerical_Data.html), [Video](https://youtu.be/A1CxTVvCsiI), [R Script](https://github.com/jbryer/DATA606Fall2019/blob/master/R/IndependenceBetweenGroups.R)
-Wed, Oct 30, 8:30pm      | Linear Regression               | 
+Wed, Oct 30, 8:30pm      | Linear Regression               | [Slides](/slides/08-Linear_Regression.html), [Video](https://youtu.be/28Jk_s0x2iE)
 Wed, Nov 6, 8:30pm       | Linear Regression cont.         | 
 Wed, Nov 13, 8:30pm      | Multiple & Logistic Regression  | 
 Wed, Nov 20, 8:30pm      | Multiple & Logistic Regression  |
