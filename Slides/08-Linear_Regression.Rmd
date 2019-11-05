@@ -507,8 +507,8 @@ We see that excluding this point changes model slightly. With the outlier includ
 ## $R^2$ with and without the outlier
 
 ```{r}
-sat.lm$coefficients[2] ^ 2
-sat.lm2$coefficients[2] ^ 2
+summary(sat.lm)$r.squared
+summary(sat.lm2)$r.squared
 ```
 
 ## More outliers
@@ -542,8 +542,8 @@ ggplot(sat.outlier, aes(x=Verbal, y=Math)) +
 ## $R^2$
 
 ```{r}
-unname(sat.lm$coefficients[2] ^ 2)
-unname(sat.lm2$coefficients[2] ^ 2)
+summary(sat.lm)$r.squared
+summary(sat.lm2)$r.squared
 ```
 
 
@@ -572,8 +572,8 @@ ggplot(sat.outlier, aes(x=Verbal, y=Math)) +
 ## $R^2$
 
 ```{r}
-unname(sat.lm$coefficients[2] ^ 2)
-unname(sat.lm2$coefficients[2] ^ 2)
+summary(sat.lm)$r.squared
+summary(sat.lm2)$r.squared
 ```
 
 

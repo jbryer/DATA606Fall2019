@@ -3628,15 +3628,13 @@ sat.outlier</pre>
 
 </article></slide><slide class=""><hgroup><h2>\(R^2\) with and without the outlier</h2></hgroup><article  class="smaller " id="r2-with-and-without-the-outlier">
 
-<pre class = 'prettyprint lang-r'>sat.lm$coefficients[2] ^ 2</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm)$r.squared</pre>
 
-<pre >##   Verbal 
-## 0.455726</pre>
+<pre >## [1] 0.4686855</pre>
 
-<pre class = 'prettyprint lang-r'>sat.lm2$coefficients[2] ^ 2</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm2)$r.squared</pre>
 
-<pre >##    Verbal 
-## 0.4797177</pre>
+<pre >## [1] 0.5013288</pre>
 
 </article></slide><slide class=""><hgroup><h2>More outliers</h2></hgroup><article  class="smaller " id="more-outliers">
 
@@ -3674,13 +3672,13 @@ sat.outlier &lt;- rbind(sat[,c(&#39;Verbal&#39;,&#39;Math&#39;)], c(Verbal=outX,
 
 </article></slide><slide class=""><hgroup><h2>\(R^2\)</h2></hgroup><article  class="smaller " id="r2-1">
 
-<pre class = 'prettyprint lang-r'>unname(sat.lm$coefficients[2] ^ 2)</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm)$r.squared</pre>
 
-<pre >## [1] 0.455726</pre>
+<pre >## [1] 0.4686855</pre>
 
-<pre class = 'prettyprint lang-r'>unname(sat.lm2$coefficients[2] ^ 2)</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm2)$r.squared</pre>
 
-<pre >## [1] 0.5112893</pre>
+<pre >## [1] 0.5443222</pre>
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  class="smaller " id="section-4">
 
@@ -3715,13 +3713,13 @@ sat.outlier &lt;- rbind(sat[,c(&#39;Verbal&#39;,&#39;Math&#39;)], c(Verbal=outX,
 
 </article></slide><slide class=""><hgroup><h2>\(R^2\)</h2></hgroup><article  class="smaller " id="r2-2">
 
-<pre class = 'prettyprint lang-r'>unname(sat.lm$coefficients[2] ^ 2)</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm)$r.squared</pre>
 
-<pre >## [1] 0.455726</pre>
+<pre >## [1] 0.4686855</pre>
 
-<pre class = 'prettyprint lang-r'>unname(sat.lm2$coefficients[2] ^ 2)</pre>
+<pre class = 'prettyprint lang-r'>summary(sat.lm2)$r.squared</pre>
 
-<pre >## [1] 0.2979727</pre></article></slide>
+<pre >## [1] 0.2726476</pre></article></slide>
 
 
   <slide class="backdrop"></slide>
