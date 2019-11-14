@@ -33,8 +33,8 @@ Wed, Oct 16, 8:30pm      | Inference for Categorical Data  | [Slides](/slides/06
 Wed, Oct 23, 8:30pm      | Inference for Numerical Data    | [Slides](/slides/07-Inference_for_Numerical_Data.html), [Video](https://youtu.be/A1CxTVvCsiI), [R Script](https://github.com/jbryer/DATA606Fall2019/blob/master/R/IndependenceBetweenGroups.R)
 Wed, Oct 30, 8:30pm      | Linear Regression               | [Slides](/slides/08-Linear_Regression.html), [Video](https://youtu.be/28Jk_s0x2iE)
 NO MEETUP                | Linear Regression cont.         | [Slides](/slides/08-Linear_Regression2.html), [Video](https://youtu.be/Q0FfjaPMGkc)
-Wed, Nov 13, 8:30pm      | Multiple & Logistic Regression  | 
-Nov 20                   | TBD                             | TBD - Check Slack by Monday, November 18
+Wed, Nov 13, 8:30pm      | Multiple Regression             | [Slides](/slides/09-Multiple_Regression.html), [Video](https://youtu.be/-93Co3WCGgI)
+Wed, Nov 20, 8:30pm      | Logistic Regression             | 
 Nov 27                   | NO MEETUP - Thanksgiving        | 
 Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | 
 Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
