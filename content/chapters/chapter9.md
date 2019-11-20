@@ -24,7 +24,7 @@ MathJax.Hub.Config({
 </script>
 
 <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="/MathJax.js">
 </script>
 
 ## Multiple and Logistic Regression
@@ -81,5 +81,5 @@ where `$Var(e_i)$` measures the variability of residuals (`$SS_{Err}$`), `$Var(y
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uYC2eLVSpI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WflqTUOvdik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

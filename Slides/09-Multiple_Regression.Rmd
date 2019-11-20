@@ -1,7 +1,7 @@
 ---
 title: "DATA606 - Multiple & Logistic Regression"
 author: Jason Bryer, Ph.D.
-date: April 17, 2019
+date: November 13, 2019
 knit: (function(inputFile, encoding) { input.dir <- normalizePath(dirname(inputFile)); rmarkdown::render(input = inputFile, encoding = encoding, quiet=FALSE, output_file = paste0(input.dir,'/../docs/slides/', tools::file_path_sans_ext(basename(inputFile)), '.html')); })
 output:
   ioslides_presentation:
@@ -284,65 +284,4 @@ where *n* is the number of cases and *p* is the number of predictors (explanator
 * Because *p* is never negative, ${ R }_{ adj }^{ 2 }$ will always be smaller than $R^2$.
 * ${ R }_{ adj }^{ 2 }$ applies a penalty for the number of predictors included in the model.
 * Therefore, we choose models with higher ${ R }_{ adj }^{ 2 }$ over others.
-
-
-## The Logistic Function {.flexbox .vcenter}
-
-$$ \sigma \left( t \right) =\frac { { e }^{ t } }{ { e }^{ t }+1 } =\frac { 1 }{ 1+{ e }^{ -t } }  $$
-
-```{r, fig.width=6, fig.height=3}
-logistic <- function(t) { return(1 / (1 + exp(-t))) }
-df <- data.frame(x=seq(-4, 4, by=0.01))
-df$sigma_t <- logistic(df$x)
-plot(df$x, df$sigma_t)
-```
-
-## *t* as a Linear Function
-
-$$ t = \beta_0 + \beta_1 x $$
-
-The logistic function can now be rewritten as
-
-$$ F\left( x \right) =\frac { 1 }{ 1+{ e }^{ -\left( { \beta  }_{ 0 }+\beta _{ 1 }x \right)  } } $$
-
-We use the same ordinary least squares procedure we used before. That is, we wish to minimize the sum of squared residuals.
-
-## Example: Hours Studying Predicting Passing
-
-```{r}
-study <- data.frame(
-	Hours=c(0.50,0.75,1.00,1.25,1.50,1.75,1.75,2.00,2.25,2.50,2.75,3.00,3.25,3.50,4.00,4.25,4.50,4.75,5.00,5.50),
-	Pass=c(0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1)
-)
-lr.out <- glm(Pass ~ Hours, data=study, family=binomial)
-lr.out
-```
-
-## Fitted Values
-
-```{r}
-study[1,]
-logistic <- function(x, b0, b1) {
-	return(1 / (1 + exp(-1 * (b0 + b1 * x)) ))
-}
-logistic(.5, b0=-4.078, b1=1.505)
-```
-
-Of course, the `fitted` function will do the same:
-
-```{r}
-study$fitted <- fitted(lr.out)
-study[1,]
-```
-
-## Plotting the Results {.flexbox .vcenter}
-
-```{r, fig.height=4}
-binomial_smooth <- function(...) {
-	geom_smooth(method = "glm", method.args = list(family = "binomial"), ...)
-}
-
-ggplot(study, aes(x=Hours, y=Pass)) + geom_point() + 
-	binomial_smooth(se=FALSE)
-```
 
