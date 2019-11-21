@@ -51,7 +51,6 @@ printLaTeXFormula <- function(fit, digits=2) {
 * [Alain Kuiete Tchoupou](http://rpubs.com/AlainKuiete/multipleLinearModel)
 * [Emmanuel Hayble-Gomes](https://github.com/Emahayz/Data-606-Class/blob/master/Data%20606-Logistic%20Regression-Nov%2020th.pptx)
 * Jai Jeffryes	
-* Paul Perez	
 * Anil Akyildirim	
 * Shovan Biswas	
 
@@ -145,6 +144,17 @@ Model
 
 $$log(\frac{p}{1-p}) = -4.078 + 1.505 \times Hours$$
 
+## Plotting the Results {.flexbox .vcenter}
+
+```{r, fig.height=4}
+binomial_smooth <- function(...) {
+	geom_smooth(method = "glm", method.args = list(family = "binomial"), ...)
+}
+
+ggplot(study, aes(x=Hours, y=Pass)) + geom_point() + binomial_smooth(se=FALSE)
+```
+
+
 ## Prediction {.build}
 
 Odds (or probability) of passing if studied **zero** hours?
@@ -178,14 +188,4 @@ study[1,]
 ```
 
 But remember, the fitted values are log odds.
-
-## Plotting the Results {.flexbox .vcenter}
-
-```{r, fig.height=4}
-binomial_smooth <- function(...) {
-	geom_smooth(method = "glm", method.args = list(family = "binomial"), ...)
-}
-
-ggplot(study, aes(x=Hours, y=Pass)) + geom_point() + binomial_smooth(se=FALSE)
-```
 
