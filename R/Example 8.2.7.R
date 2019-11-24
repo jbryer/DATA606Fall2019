@@ -12,11 +12,6 @@ ggplot(elmhurst, aes(x = family_income, y = gift_aid)) +
 lm.out <- lm(gift_aid ~ family_income, data = elmhurst)
 summary(lm.out)
 
-var(elmhurst$gift_aid) # s^2 for aid (i.e. variance of the dependent variable)
-var(resid(lm.out)) # s^2 for the residuals (i.e. variance of the residuals)
-
-# R-squared
-(var(elmhurst$gift_aid) - var(resid(lm.out))) / var(elmhurst$gift_aid) 
 
 # Let's  highlight one point
 row <- which(min(elmhurst$family_income) == elmhurst$family_income)
@@ -40,10 +35,27 @@ ggplot(elmhurst, aes(x = family_income, y = gift_aid)) +
 	geom_point(data = elmhurst[row,], color = 'magenta', size = 3) +
 	geom_text(x = elmhurst[row,]$family_income,
 			  y = (elmhurst[row,]$gift_aid + predict(lm.out, newdata = elmhurst[row,])) / 2,
-			  label = 'Unexplained (i.e. error) Variance', hjust = -0.1, color = 'red') +
+			  label = ' Unexplained (i.e. error) Variance', hjust = 0, color = 'red') +
 	geom_text(x = elmhurst[row,]$family_income,
 			  y = (mean(elmhurst$gift_aid) + predict(lm.out, newdata = elmhurst[row,])) / 2,
-			  label = 'Explained Variance', hjust = -0.1, color = 'blue')
+			  label = ' Explained Variance', hjust = 0, color = 'blue')
 
-	
+# R-squared is 
+
+elmhurst$predicted <- predict(lm.out)
+
+# Save the components to the data frame
+elmhurst$explained_var_component <- (elmhurst$gift_aid - mean(elmhurst$gift_aid))^2
+elmhurst$error_var_component <- (elmhurst$gift_aid - elmhurst$predicted)^2
+
+# Variance in our dependent variable (calculated in two ways)
+sum( (elmhurst$gift_aid - mean(elmhurst$gift_aid))^2 ) / (nrow(elmhurst) - 1)
+var(elmhurst$gift_aid) # s^2 for aid (i.e. variance of the dependent variable)
+
+# Variance of the resisuals (calculated in two ways)
+sum( (elmhurst$gift_aid - elmhurst$predicted)^2 ) / (nrow(elmhurst) - 1)
+var(resid(lm.out)) # s^2 for the residuals (i.e. variance of the residuals)
+
+# R-squared from the formula on page 323
+(var(elmhurst$gift_aid) - var(resid(lm.out))) / var(elmhurst$gift_aid) 
 
