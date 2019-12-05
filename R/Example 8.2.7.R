@@ -15,6 +15,7 @@ summary(lm.out)
 
 # Let's  highlight one point
 row <- which(min(elmhurst$family_income) == elmhurst$family_income)
+# row <- 3
 elmhurst[row,]
 predict(lm.out, newdata = elmhurst[row,]) # The predicted value for this data point
 
@@ -40,7 +41,9 @@ ggplot(elmhurst, aes(x = family_income, y = gift_aid)) +
 			  y = (mean(elmhurst$gift_aid) + predict(lm.out, newdata = elmhurst[row,])) / 2,
 			  label = ' Explained Variance', hjust = 0, color = 'blue')
 
-# R-squared is 
+
+# R-squared
+summary(lm.out)$r.squared
 
 elmhurst$predicted <- predict(lm.out)
 
@@ -58,4 +61,11 @@ var(resid(lm.out)) # s^2 for the residuals (i.e. variance of the residuals)
 
 # R-squared from the formula on page 323
 (var(elmhurst$gift_aid) - var(resid(lm.out))) / var(elmhurst$gift_aid) 
+
+# From https://www.mathworks.com/help/stats/coefficient-of-determination-r-squared.html
+SSerror <- var(resid(lm.out))
+SStotal <- var(elmhurst$gift_aid) 
+SSregression <- SStotal - SSerror
+SSregression / SStotal
+1 - (SSerror / SStotal)
 

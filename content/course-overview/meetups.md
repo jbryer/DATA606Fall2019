@@ -36,6 +36,6 @@ NO MEETUP                | Linear Regression cont.         | [Slides](/slides/08
 Wed, Nov 13, 8:30pm      | Multiple Regression             | [Slides](/slides/09-Multiple_Regression.html), [Video](https://youtu.be/-93Co3WCGgI)
 Wed, Nov 20, 8:30pm      | Logistic Regression             | [Slides](/slides/09-Logistic_Regression.html), [Video](https://youtu.be/Be_5bNrsKQ8)
 Nov 27                   | NO MEETUP - Thanksgiving        | 
-Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | 
+Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | [Slides](/slides/10-Bayesian_Analysis.html), [Video](https://youtu.be/JjUTpAxacro)
 Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
 
