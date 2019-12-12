@@ -37,5 +37,5 @@ Wed, Nov 13, 8:30pm      | Multiple Regression             | [Slides](/slides/09
 Wed, Nov 20, 8:30pm      | Logistic Regression             | [Slides](/slides/09-Logistic_Regression.html), [Video](https://youtu.be/Be_5bNrsKQ8)
 Nov 27                   | NO MEETUP - Thanksgiving        | 
 Wed, Dec 4, 8:30pm       | Intro to Bayesian Analysis      | [Slides](/slides/10-Bayesian_Analysis.html), [Video](https://youtu.be/JjUTpAxacro)
-Wed, Dec 11, 8:30pm      | Wrap-Up                         | 
+Wed, Dec 11, 8:30pm      | Wrap-Up                         | [Slides](/slides/11-Final_Meetup.html), [PSA Slides](http://jbryer.github.io/psa/slides/Intro_PSA.html#1), [Video](https://youtu.be/kg-rR6IdElY)
 
